@@ -27,7 +27,7 @@ export const translations = {
     "nav.home": "ホーム",
     "nav.articles": "記事一覧",
     "nav.about": "概要",
-    "hero.subtitle": "このたび「テックトレンド速報」は「VibeCoding X」に生まれ変わりました。",
+    "hero.subtitle": "このたび「テックトレンド速報」は「VibeCoding X」にバージョンアップしました。",
     "hero.cta": "最新記事を読む",
     "schedule.title": "配信スケジュール",
     "schedule.next": "次回配信",
