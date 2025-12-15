@@ -77,7 +77,7 @@ export function ArticlePage() {
              {/* Infographic Component */}
              <div className="my-8 not-prose">
                <BenchmarkChart />
-               <p className="text-xs text-center text-muted-foreground mt-2 font-mono">
+               <p className="text-xs text-center text-muted-foreground mt-6 font-mono">
                  Figure 1: Comprehensive Vibe Assessment Radar
                </p>
              </div>
