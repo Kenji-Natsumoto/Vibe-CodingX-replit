@@ -180,15 +180,19 @@ export function ArticlePage() {
                </div>
              </div>
 
-             <div className="bg-white/5 border border-white/10 p-6 rounded-lg mb-8 not-prose">
-               <h3 className="text-lg font-mono text-cyber-green mb-4 uppercase">Video Analysis</h3>
-               {/* Placeholder for YouTube Embed */}
-               <div className="aspect-video bg-black flex items-center justify-center border border-white/5">
-                 <p className="font-mono text-muted-foreground text-xs">[VIDEO SIGNAL LOST - PLACEHOLDER]</p>
+             <div className="mb-8 not-prose border border-cyber-cyan/30 rounded-lg overflow-hidden bg-black/40 backdrop-blur-sm shadow-[0_0_30px_rgba(0,240,255,0.05)]">
+               {/* Header */}
+               <div className="p-6 border-b border-cyber-cyan/30 bg-cyber-cyan/5">
+                  <h3 className="text-2xl font-display font-bold text-cyber-cyan mb-4 text-glow">
+                    画面Rec.
+                  </h3>
+                  <div className="aspect-video bg-black flex items-center justify-center border border-white/5">
+                    <p className="font-mono text-muted-foreground text-xs">[VIDEO SIGNAL LOST - PLACEHOLDER]</p>
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-2 font-mono text-center">
+                    Live demo of the 3-step modification challenge.
+                  </p>
                </div>
-               <p className="text-xs text-muted-foreground mt-2 font-mono text-center">
-                 Live demo of the 3-step modification challenge.
-               </p>
              </div>
 
              <p className="mb-6">
