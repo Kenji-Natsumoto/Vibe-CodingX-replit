@@ -92,6 +92,50 @@ export function ArticlePage() {
                 ? "For pure speed: Manus. For the art of coding: Replit. The choice depends on whether you are a mechanic or an artist."
                 : "純粋な速度ならManus。コーディングというアートのためならReplit。君が整備士か、アーティストかによって選択は変わるだろう。"}
              </p>
+
+             {/* Editor's Note */}
+             <div className="mt-12 p-6 bg-white/5 border border-cyber-magenta/30 rounded-lg">
+               <h3 className="text-cyber-magenta font-display uppercase tracking-wider mb-4">
+                 {language === 'en' ? "Editor's Note" : "編集後記"}
+               </h3>
+               {language === 'jp' ? (
+                 <>
+                   <p className="mb-4 text-sm text-gray-300">
+                     先週、フィンテック養成勉強会と湯川塾で、バイブコーディングについて解説をする機会をいただきました。
+                   </p>
+                   <p className="mb-4 text-sm text-gray-300">
+                     双方とも参加者の約30〜40%の方が「バイブコーディングを聞いたことがある」あるいは「知っている・やったことがある」とお答でした。
+                   </p>
+                   <p className="mb-4 text-sm text-gray-300">
+                     このことが、今回、「テックトレンド情報」から「バイブコーディング」にテーマを絞ろうという決意を後押ししました。PDFから脱皮して専門のメディアにしたかったので、ドメイン名を考えた結果、かの「SpaceX」にあやかって「VibeCodingX」と名付けました。
+                   </p>
+                   <p className="mb-4 text-sm text-gray-300">
+                     この名前で、「バイブコーディング」の可能性がもっと世間に広まって欲しいと願っています。＜NA2KEN＞
+                   </p>
+                   <p className="text-xs text-muted-foreground mt-6 border-t border-white/10 pt-2">
+                     【注釈】「湯川塾」・・・ITジャーナリストである湯川鶴章（ゆかわ つるあき）氏が主宰する少人数制の勉強会です。
+                   </p>
+                 </>
+               ) : (
+                 <>
+                   <p className="mb-4 text-sm text-gray-300">
+                     Last week, I had the opportunity to explain Vibe Coding at a Fintech study group and Yukawa Juku.
+                   </p>
+                   <p className="mb-4 text-sm text-gray-300">
+                     In both sessions, about 30-40% of participants answered that they had "heard of Vibe Coding" or "knew/had tried it."
+                   </p>
+                   <p className="mb-4 text-sm text-gray-300">
+                     This encouraged my decision to narrow the theme from general "Tech Trend Information" to specifically "Vibe Coding." I wanted to evolve from PDFs into a specialized media outlet. After considering domain names, I named it "VibeCodingX," inspired by "SpaceX."
+                   </p>
+                   <p className="mb-4 text-sm text-gray-300">
+                     With this name, I hope the possibilities of "Vibe Coding" will spread further into the world. &lt;NA2KEN&gt;
+                   </p>
+                   <p className="text-xs text-muted-foreground mt-6 border-t border-white/10 pt-2">
+                     [Note] "Yukawa Juku" is a small-group study session hosted by IT journalist Tsuruaki Yukawa.
+                   </p>
+                 </>
+               )}
+             </div>
           </div>
 
           {/* Sidebar */}
