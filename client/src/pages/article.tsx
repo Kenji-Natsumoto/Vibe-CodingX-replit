@@ -7,6 +7,7 @@ import { ArrowLeft, Share2, Bookmark } from "lucide-react";
 import { cn } from "@/lib/utils";
 import img3227 from "@assets/IMG_3227_1765813413744.jpg";
 import img3226 from "@assets/IMG_3226_1765813425582.JPG";
+import infographicImage from "@assets/Gemini_Generated_Image_r5gulpr5gulpr5gu_1765818878414.png";
 
 export function ArticlePage() {
   const { id } = useParams();
@@ -55,6 +56,12 @@ export function ArticlePage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           {/* Main Text */}
           <div className="lg:col-span-8 prose prose-invert prose-lg max-w-none prose-headings:font-display prose-headings:text-cyber-cyan prose-p:font-sans prose-p:text-gray-300">
+             
+             {/* Prompt Infographic */}
+             <div className="mb-8 rounded-lg overflow-hidden border border-white/10 not-prose">
+               <img src={infographicImage} alt="3 Levels of Tricky Modification Prompts" className="w-full h-auto" />
+             </div>
+
              <div className="bg-white/5 border border-white/10 p-6 rounded-lg mb-8 not-prose">
                <h3 className="text-lg font-mono text-cyber-green mb-4 uppercase">Video Analysis</h3>
                {/* Placeholder for YouTube Embed */}
