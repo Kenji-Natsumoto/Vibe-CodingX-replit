@@ -371,11 +371,11 @@ export function ArticlePage() {
                </div>
              </div>
              
-             <h2>
+             <h3 className="text-2xl font-display font-bold text-cyber-magenta mb-4 text-glow mt-12">
                {language === 'en' 
                  ? "Performance Comparison & Benchmark Results" 
-                 : <span className="text-3xl font-bold text-cyber-magenta">性能比較・ベンチマーク結果</span>}
-             </h2>
+                 : "性能比較・ベンチマーク結果"}
+             </h3>
              
              {/* Infographic Component */}
              <div className="my-8 not-prose">
