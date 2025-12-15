@@ -394,12 +394,12 @@ export function ArticlePage() {
                  <p>同じコストを払うなら、誰もがReplit Agent 3 を選ぶだろう。</p>
              )}
              
-             <h3>{language === 'en' ? "Conclusion" : "結論"}</h3>
-             <p>
-               {language === 'en'
-                ? "However, Manus 1.5 has simple integration with Stripe (payment system) and simple authentication (using Manus login), so we must not forget that secure content and billing systems can be built immediately."
-                : "ただし、Manus 1.5にはStripe（決済システム）との簡易連携機能と簡易認証機能（manusのログイン機能を利用する）があり、セキュアなコンテンツや課金システムをすぐに構築できることを忘れてはならない。"}
-             </p>
+             <div className="my-12"></div>
+            <p>
+              {language === 'en'
+               ? "However, Manus 1.5 has simple integration with Stripe (payment system) and simple authentication (using Manus login), so we must not forget that secure content and billing systems can be built immediately."
+               : "ただし、Manus 1.5にはStripe（決済システム）との簡易連携機能と簡易認証機能（manusのログイン機能を利用する）があり、セキュアなコンテンツや課金システムをすぐに構築できることを忘れてはならない。"}
+            </p>
 
              {/* Editor's Note */}
              <div className="mt-12 p-6 bg-white/5 border border-cyber-magenta/30 rounded-lg">
