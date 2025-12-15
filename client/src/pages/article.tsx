@@ -7,6 +7,7 @@ import { ArrowLeft, Share2, Bookmark, CheckCircle2, Clipboard, Zap, Brain, Exter
 import { cn } from "@/lib/utils";
 import img3227 from "@assets/IMG_3227_1765813413744.jpg";
 import img3226 from "@assets/IMG_3226_1765813425582.JPG";
+import authorImage from "@assets/kenji_natsumoto_portfolio2025-2_1765826605917.png";
 
 export function ArticlePage() {
   const { id } = useParams();
@@ -457,6 +458,31 @@ export function ArticlePage() {
                    </p>
                  </>
                )}
+             </div>
+
+             {/* Author Section */}
+             <div className="mt-8 flex items-center gap-4 p-4 border border-cyber-cyan/20 rounded-lg bg-black/40 backdrop-blur-sm">
+               <div className="relative shrink-0">
+                 <div className="absolute inset-0 bg-cyber-cyan/20 blur-md rounded-full"></div>
+                 <img 
+                   src={authorImage} 
+                   alt="NA2KEN" 
+                   className="relative w-16 h-16 rounded-full border-2 border-cyber-cyan object-cover"
+                 />
+               </div>
+               <div>
+                 <div className="flex items-center gap-2 mb-1">
+                   <h4 className="font-display font-bold text-lg text-white">
+                     NA2KEN
+                   </h4>
+                   <span className="px-1.5 py-0.5 rounded text-[10px] font-mono bg-cyber-cyan/10 text-cyber-cyan border border-cyber-cyan/30">
+                     AUTHOR
+                   </span>
+                 </div>
+                 <p className="text-xs text-gray-400 font-mono leading-relaxed">
+                   AIソロプレナーでVibeCoding Fixer。「Vibe Coding X」の編集長。
+                 </p>
+               </div>
              </div>
           </div>
 
