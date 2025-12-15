@@ -3,7 +3,7 @@ import { BenchmarkChart } from "@/components/infographic";
 import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
 import { useParams, Link } from "wouter";
-import { ArrowLeft, Share2, Bookmark, CheckCircle2, Clipboard, Zap, Brain } from "lucide-react";
+import { ArrowLeft, Share2, Bookmark, CheckCircle2, Clipboard, Zap, Brain, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 import img3227 from "@assets/IMG_3227_1765813413744.jpg";
 import img3226 from "@assets/IMG_3226_1765813425582.JPG";
@@ -409,7 +409,7 @@ export function ArticlePage() {
                {language === 'jp' ? (
                  <>
                    <p className="mb-4 text-sm text-gray-300">
-                     先週、フィンテック養成勉強会と湯川塾で、バイブコーディングについて解説をする機会をいただきました。
+                     先週、<a href="https://fintech-engineer.connpass.com/event/377275/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-cyber-cyan hover:underline">フィンテック養成勉強会<ExternalLink className="w-3 h-3 ml-1" /></a>と湯川塾で、バイブコーディングについて解説をする機会をいただきました。
                    </p>
                    <p className="mb-4 text-sm text-gray-300">
                      双方とも参加者の約30〜40%の方が「バイブコーディングを聞いたことがある」あるいは「知っている・やったことがある」とお答でした。
