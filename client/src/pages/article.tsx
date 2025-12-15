@@ -371,7 +371,11 @@ export function ArticlePage() {
                </div>
              </div>
              
-             <h2>{language === 'en' ? "The Benchmark" : "ベンチマーク結果"}</h2>
+             <h2>
+               {language === 'en' 
+                 ? "Performance Comparison & Benchmark Results" 
+                 : <span className="text-3xl font-bold text-cyber-magenta">性能比較・ベンチマーク結果</span>}
+             </h2>
              
              {/* Infographic Component */}
              <div className="my-8 not-prose">
@@ -393,8 +397,8 @@ export function ArticlePage() {
              <h3>{language === 'en' ? "Conclusion" : "結論"}</h3>
              <p>
                {language === 'en'
-                ? "For pure speed: Manus. For the art of coding: Replit. The choice depends on whether you are a mechanic or an artist."
-                : "純粋な速度ならManus。コーディングというアートのためならReplit。君が整備士か、アーティストかによって選択は変わるだろう。"}
+                ? "However, Manus 1.5 has simple integration with Stripe (payment system) and simple authentication (using Manus login), so we must not forget that secure content and billing systems can be built immediately."
+                : "ただし、Manus 1.5にはStripe（決済システム）との簡易連携機能と簡易認証機能（manusのログイン機能を利用する）があり、セキュアなコンテンツや課金システムをすぐに構築できることを忘れてはならない。"}
              </p>
 
              {/* Editor's Note */}
