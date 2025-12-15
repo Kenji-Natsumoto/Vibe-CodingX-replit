@@ -27,8 +27,8 @@ export const articles: Article[] = [
       jp: "バイブコーディング修正しやすさベンチマーク：Replit Agent 3 X Manus1.5 頂上対決！"
     },
     excerpt: {
-      en: "We put the two hottest AI coding agents to the test with 3 rigorous modification tasks. Who is the true king of Vibe Coding?",
-      jp: "話題のAIコーディングエージェント2強を3つの修正タスクで徹底検証。真のバイブコーディング王者はどっちだ？"
+      en: "To expose the true responsiveness to correction instructions that everyone is curious about, we executed 3 levels of 'tricky modification prompts' to measure the 'fidelity of correction'.",
+      jp: "誰もが気になる「修正指示」の対応力を丸裸にするために、3段階の「意地悪な変更指示プロンプト」を実行させて「修正の忠実度」を計測してみた。"
     },
     date: "2025-12-15",
     category: "BENCHMARK",
