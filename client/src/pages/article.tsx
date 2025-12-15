@@ -313,6 +313,63 @@ export function ArticlePage() {
                  ? "The battle for supremacy in the AI coding agent space has reached a fever pitch. In one corner, the reigning champion Replit Agent 3. In the other, the mysterious challenger Manus 1.5. We didn't just look at the specs; we threw them into the fire."
                  : "謎多きスピードキング：Replit Agent 3 と後発の優等生：Manus 1.5だが、合計6つの検証中、絶えず思いがけない結果が待っていた。"}
              </p>
+
+             {/* Comparison Card */}
+             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10 not-prose">
+               {/* Replit Agent 3 Card */}
+               <div className="bg-cyber-cyan/5 border border-cyber-cyan/30 rounded-lg p-6 relative overflow-hidden group">
+                 <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                   <Zap className="w-24 h-24 text-cyber-cyan" />
+                 </div>
+                 <h4 className="text-xl font-display font-bold text-cyber-cyan mb-2 flex items-center gap-2">
+                   Replit Agent 3
+                 </h4>
+                 <div className="text-3xl font-bold text-white mb-6 font-mono tracking-tighter">
+                   95<span className="text-sm text-muted-foreground ml-1 font-normal">pts</span>
+                 </div>
+                 <ul className="space-y-3 font-mono text-sm">
+                   <li className="flex items-start gap-2">
+                     <span className="text-cyber-cyan mt-0.5">L1:</span>
+                     <span className="text-gray-300">楽勝クリア</span>
+                   </li>
+                   <li className="flex items-start gap-2">
+                     <span className="text-cyber-cyan mt-0.5">L2:</span>
+                     <span className="text-gray-300">エラー1回：後にクリア</span>
+                   </li>
+                   <li className="flex items-start gap-2">
+                     <span className="text-cyber-cyan mt-0.5">L3:</span>
+                     <span className="text-gray-300">的確にクリア</span>
+                   </li>
+                 </ul>
+               </div>
+
+               {/* Manus 1.5 Card */}
+               <div className="bg-cyber-magenta/5 border border-cyber-magenta/30 rounded-lg p-6 relative overflow-hidden group">
+                 <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                   <Brain className="w-24 h-24 text-cyber-magenta" />
+                 </div>
+                 <h4 className="text-xl font-display font-bold text-cyber-magenta mb-2 flex items-center gap-2">
+                   Manus 1.5
+                 </h4>
+                 <div className="text-3xl font-bold text-white mb-6 font-mono tracking-tighter">
+                   87<span className="text-sm text-muted-foreground ml-1 font-normal">pts</span>
+                 </div>
+                 <ul className="space-y-3 font-mono text-sm">
+                   <li className="flex items-start gap-2">
+                     <span className="text-cyber-magenta mt-0.5">L1:</span>
+                     <span className="text-gray-300">楽勝クリア</span>
+                   </li>
+                   <li className="flex items-start gap-2">
+                     <span className="text-cyber-magenta mt-0.5">L2:</span>
+                     <span className="text-gray-300">的確にクリア</span>
+                   </li>
+                   <li className="flex items-start gap-2">
+                     <span className="text-cyber-magenta mt-0.5">L3:</span>
+                     <span className="text-gray-300">エラー数回：後にクリア</span>
+                   </li>
+                 </ul>
+               </div>
+             </div>
              
              <h2>{language === 'en' ? "The Benchmark" : "ベンチマーク結果"}</h2>
              
