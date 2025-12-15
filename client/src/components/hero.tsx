@@ -25,8 +25,8 @@ export function Hero() {
             V.0.1.0 // BETA
           </span>
           
-          <h1 className="text-4xl md:text-6xl font-display font-bold uppercase leading-tight mb-4 glitch-effect" data-text="VIBE CODING">
-            VIBE CODING
+          <h1 className="text-4xl md:text-6xl font-display font-bold uppercase leading-tight mb-4 glitch-effect" data-text="THE CODE EVOLUTION">
+            THE CODE EVOLUTION
           </h1>
           <h2 className="text-xl md:text-2xl text-muted-foreground font-light mb-8 font-sans">
             {t('hero.subtitle')}
