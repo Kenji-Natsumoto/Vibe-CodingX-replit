@@ -84,9 +84,12 @@ export function ArticlePage() {
 
              <p>
                {language === 'en'
-                ? "As clearly demonstrated in the radar chart above, while Manus 1.5 shows raw speed, Replit Agent 3 dominates in 'Vibe' and 'Visual Context'—crucial metrics for the modern vibe coder who needs to see changes instantly."
-                : "上のレーダーチャートが示す通り、Manus 1.5は圧倒的なスピードを見せたが、Replit Agent 3は「バイブス」と「視覚的コンテキスト」で圧倒。変更を即座に確認したい現代のバイブコーダーにとって、この差は決定的だ。"}
+                ? "As shown in the radar chart above, Replit Agent 3's performance is overwhelmingly high, even outside of speed. Manus 1.5 is balanced, but relatively falls below Replit Agent 3. When choosing which platform to use, this difference is decisive. If the cost is the same, everyone would likely choose Replit Agent 3."
+                : "上のレーダーチャートが示す通り、早さ以外でもReplit Agent 3の性能は圧倒的に高い。Manus 1.5も、バランス面では互角だが相対的にReplit Agent 3より下回る。どのプラットフォームを使うか選ぶ時、この差は決定的だ。"}
              </p>
+             {language === 'jp' && (
+                 <p>同じコストを払うなら、誰もがReplit Agent 3 を選ぶだろう。</p>
+             )}
              
              <h3>{language === 'en' ? "Conclusion" : "結論"}</h3>
              <p>
