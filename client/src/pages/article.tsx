@@ -330,15 +330,15 @@ export function ArticlePage() {
                  <ul className="space-y-3 font-mono text-sm">
                    <li className="flex items-start gap-2">
                      <span className="text-cyber-cyan mt-0.5">L1:</span>
-                     <span className="text-gray-300">楽勝クリア</span>
+                     <span className="text-gray-300">所要時間／1分13秒　→余裕でクリア</span>
                    </li>
                    <li className="flex items-start gap-2">
                      <span className="text-cyber-cyan mt-0.5">L2:</span>
-                     <span className="text-gray-300">エラー1回：後にクリア</span>
+                     <span className="text-gray-300">所要時間／13分54秒　→エラー1回：後にクリア</span>
                    </li>
                    <li className="flex items-start gap-2">
                      <span className="text-cyber-cyan mt-0.5">L3:</span>
-                     <span className="text-gray-300">的確にクリア</span>
+                     <span className="text-gray-300">所要時間／5分55秒　→余裕でクリア</span>
                    </li>
                  </ul>
                </div>
@@ -357,15 +357,15 @@ export function ArticlePage() {
                  <ul className="space-y-3 font-mono text-sm">
                    <li className="flex items-start gap-2">
                      <span className="text-cyber-magenta mt-0.5">L1:</span>
-                     <span className="text-gray-300">楽勝クリア</span>
+                     <span className="text-gray-300">所要時間／2分27秒　→余裕でクリア</span>
                    </li>
                    <li className="flex items-start gap-2">
                      <span className="text-cyber-magenta mt-0.5">L2:</span>
-                     <span className="text-gray-300">的確にクリア</span>
+                     <span className="text-gray-300">所要時間／4分08秒　→余裕でクリア</span>
                    </li>
                    <li className="flex items-start gap-2">
                      <span className="text-cyber-magenta mt-0.5">L3:</span>
-                     <span className="text-gray-300">エラー数回：後にクリア</span>
+                     <span className="text-gray-300">所要時間／32分14秒　→エラー数回：後にクリア</span>
                    </li>
                  </ul>
                </div>
