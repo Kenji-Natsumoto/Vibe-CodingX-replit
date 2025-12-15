@@ -410,7 +410,7 @@ export function ArticlePage() {
                {language === 'jp' ? (
                  <>
                    <p className="mb-4 text-sm text-gray-300">
-                     先週、<a href="https://fintech-engineer.connpass.com/event/377275/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-cyber-cyan hover:underline">フィンテック養成勉強会<ExternalLink className="w-3 h-3 ml-1" /></a>と湯川塾で、バイブコーディングについて解説をする機会をいただきました。
+                     先週、<a href="https://fintech-engineer.connpass.com/event/377275/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-cyber-cyan hover:underline">フィンテック養成勉強会<ExternalLink className="w-3 h-3 ml-1" /></a>と<a href="https://www.youtube.com/@thewave_tv/videos" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-cyber-cyan hover:underline">湯川塾<ExternalLink className="w-3 h-3 ml-1" /></a>で、バイブコーディングについて解説をする機会をいただきました。
                    </p>
                    <p className="mb-4 text-sm text-gray-300">
                      双方とも参加者の約30〜40%の方が「バイブコーディングを聞いたことがある」あるいは「知っている・やったことがある」とお答でした。
