@@ -1,3 +1,5 @@
+import heroImage from "@assets/VCX-eye02_1765812596568.png";
+
 export interface Article {
   id: string;
   title: {
@@ -30,7 +32,7 @@ export const articles: Article[] = [
     },
     date: "2025-12-15",
     category: "BENCHMARK",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1000&auto=format&fit=crop", // Cyberpunk placeholder
+    image: heroImage,
     content: {
       en: "Content placeholder...", 
       jp: "Content placeholder..."
