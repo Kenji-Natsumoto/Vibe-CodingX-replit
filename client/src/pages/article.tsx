@@ -57,6 +57,22 @@ export function ArticlePage() {
           {/* Main Text */}
           <div className="lg:col-span-8 prose prose-invert prose-lg max-w-none prose-headings:font-display prose-headings:text-cyber-cyan prose-p:font-sans prose-p:text-gray-300">
              
+             <div className="mb-12 space-y-6 not-prose">
+               <div className="bg-black/30 border-l-4 border-cyber-cyan p-4 rounded-r-lg backdrop-blur-sm">
+                 <h3 className="text-lg font-bold text-cyber-cyan mb-2 font-display">#Replit Agent 3：</h3>
+                 <p className="text-gray-300 text-sm leading-relaxed">
+                   Replit, Inc.（米国）のWeb型バイブコーディング専用プラットフォーム（クラウドベースの統合開発環境）。旧バージョンと比較して10倍の自律性を持ち、最大200分間の連続自律実行が可能。
+                 </p>
+               </div>
+               
+               <div className="bg-black/30 border-l-4 border-cyber-magenta p-4 rounded-r-lg backdrop-blur-sm">
+                 <h3 className="text-lg font-bold text-cyber-magenta mb-2 font-display">#Manus 1.5：</h3>
+                 <p className="text-gray-300 text-sm leading-relaxed">
+                   Manus Inc.（中国・シンガポール）のWeb型プラットフォーム（クラウドベースの統合開発環境）。バイブコーディング（フルスタック開発）専門ではないが、後発で高性能のため、注目されている。
+                 </p>
+               </div>
+             </div>
+
              {/* Tricky Prompts Section */}
              <div className="mb-16 not-prose border border-cyber-cyan/30 rounded-lg overflow-hidden bg-black/40 backdrop-blur-sm shadow-[0_0_30px_rgba(0,240,255,0.05)]">
                {/* Header */}
