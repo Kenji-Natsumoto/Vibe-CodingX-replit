@@ -3,11 +3,10 @@ import { BenchmarkChart } from "@/components/infographic";
 import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
 import { useParams, Link } from "wouter";
-import { ArrowLeft, Share2, Bookmark } from "lucide-react";
+import { ArrowLeft, Share2, Bookmark, CheckCircle2, Clipboard } from "lucide-react";
 import { cn } from "@/lib/utils";
 import img3227 from "@assets/IMG_3227_1765813413744.jpg";
 import img3226 from "@assets/IMG_3226_1765813425582.JPG";
-import infographicImage from "@assets/Gemini_Generated_Image_r5gulpr5gulpr5gu_1765818878414.png";
 
 export function ArticlePage() {
   const { id } = useParams();
@@ -57,9 +56,128 @@ export function ArticlePage() {
           {/* Main Text */}
           <div className="lg:col-span-8 prose prose-invert prose-lg max-w-none prose-headings:font-display prose-headings:text-cyber-cyan prose-p:font-sans prose-p:text-gray-300">
              
-             {/* Prompt Infographic */}
-             <div className="mb-8 rounded-lg overflow-hidden border border-white/10 not-prose">
-               <img src={infographicImage} alt="3 Levels of Tricky Modification Prompts" className="w-full h-auto" />
+             {/* Tricky Prompts Section */}
+             <div className="mb-16 not-prose border border-cyber-cyan/30 rounded-lg overflow-hidden bg-black/40 backdrop-blur-sm shadow-[0_0_30px_rgba(0,240,255,0.05)]">
+               {/* Header */}
+               <div className="p-6 border-b border-cyber-cyan/30 bg-cyber-cyan/5">
+                 <h2 className="text-2xl font-display font-bold text-cyber-cyan mb-4 text-glow">
+                   3段階の「意地悪な変更指示プロンプト」
+                 </h2>
+                 <p className="text-sm text-gray-300 font-sans leading-relaxed">
+                   <strong className="text-cyber-cyan">実験内容:</strong> 「Replit Agent 3」と「Manus 1.5」に3ステップの「修正」をさせることにする。これは、Google Geminiが考案したエンジニアが良くする「意地悪な要求」をベースにしている。それぞれの作業の様子は画面録画しているから、挙動をじっくり見て比較したい人は、後半のyoutubeを参照して欲しい。
+                 </p>
+               </div>
+
+               {/* Levels */}
+               <div className="divide-y divide-white/10">
+                 {/* Level 1 */}
+                 <div className="p-6 bg-gradient-to-r from-cyber-cyan/5 to-transparent">
+                   <h3 className="text-lg font-mono font-bold text-cyber-cyan mb-3 flex items-center gap-2">
+                     <span className="bg-cyber-cyan text-black px-2 py-0.5 text-xs rounded-sm">LEVEL 1</span>
+                     【デザイン・条件分岐】見た目と「ちょっとしたロジック」の変更
+                   </h3>
+                   <div className="mb-4 text-sm text-gray-300">
+                     <strong className="text-cyber-cyan">狙い:</strong> ただの色変えではなく、「条件付きの変更」ができるかを見る。AIは全体のスタイルを一括変更するのは得意だが、<strong className="text-white bg-cyber-magenta/20 px-1">「特定の条件の時だけ赤くする」</strong>といった指示で、既存のデザインを崩すことがよくある。
+                   </div>
+                   
+                   <div className="bg-black/50 border border-white/10 rounded p-4 mb-4">
+                     <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground mb-2">
+                       <Clipboard className="w-3 h-3" /> プロンプト
+                     </div>
+                     <p className="text-sm font-mono text-gray-300">
+                       プロジェクト一覧画面の表示を少し変更したいです。<br/>
+                       現在表示されているプロジェクト名の文字サイズを少し大きくしてください。<br/>
+                       さらに、もしプロジェクト名に「重要」という言葉が含まれている場合は、そのプロジェクトの背景色を薄い赤色（#FFEBEB）にして目立たせてください。<br/>
+                       それ以外は今のままのデザインを維持してください。
+                     </p>
+                   </div>
+
+                   <div className="space-y-2">
+                     <div className="flex items-center gap-2 text-xs font-mono text-cyber-green mb-1">
+                       <CheckCircle2 className="w-3 h-3" /> チェックポイント
+                     </div>
+                     <ul className="text-sm text-gray-400 space-y-1 ml-1">
+                       <li className="flex gap-2"><span>[✓]</span> デザイン崩れ（レイアウトのズレ）が起きていないか？</li>
+                       <li className="flex gap-2"><span>[✓]</span> 「重要」という文字が入った時だけ色が変わり、それ以外は変わっていないか？</li>
+                     </ul>
+                   </div>
+                 </div>
+
+                 {/* Level 2 */}
+                 <div className="p-6 bg-gradient-to-r from-cyber-magenta/5 to-transparent">
+                   <h3 className="text-lg font-mono font-bold text-cyber-magenta mb-3 flex items-center gap-2">
+                     <span className="bg-cyber-magenta text-black px-2 py-0.5 text-xs rounded-sm">LEVEL 2</span>
+                     【機能追加】ビジネス現場の定番「CSVエクスポート」
+                   </h3>
+                   <div className="mb-4 text-sm text-gray-300">
+                     <strong className="text-cyber-magenta">狙い:</strong> バックエンド（データ処理）とフロントエンド（ボタン設置・ダウンロード挙動）の両方の連携が必要。「ボタンはできたけど動かない」「文字化けする」といったトラブルが起きやすい項目。
+                   </div>
+                   
+                   <div className="bg-black/50 border border-white/10 rounded p-4 mb-4">
+                     <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground mb-2">
+                       <Clipboard className="w-3 h-3" /> プロンプト
+                     </div>
+                     <p className="text-sm font-mono text-gray-300">
+                       プロジェクト一覧画面の右上に「CSVダウンロード」というボタンを追加してください。<br/>
+                       このボタンを押すと、現在登録されている全プロジェクトのデータ（タイトル、作成日、説明文）がCSV形式でダウンロードできるようにしてください。<br/>
+                       日本語が文字化けしないようにエンコーディングには注意してください。
+                     </p>
+                   </div>
+
+                   <div className="space-y-2">
+                     <div className="flex items-center gap-2 text-xs font-mono text-cyber-green mb-1">
+                       <CheckCircle2 className="w-3 h-3" /> チェックポイント
+                     </div>
+                     <ul className="text-sm text-gray-400 space-y-1 ml-1">
+                       <li className="flex gap-2"><span>[✓]</span> ボタンを押してエラーが出ずにファイルが落ちてくるか？</li>
+                       <li className="flex gap-2"><span>[✓]</span> Excel等で開いたとき、日本語が文字化けしていないか？</li>
+                       <li className="flex gap-2"><span>[✓]</span> データベースの中身が正しく反映されているか？</li>
+                     </ul>
+                   </div>
+                 </div>
+
+                 {/* Level 3 */}
+                 <div className="p-6 bg-gradient-to-r from-cyber-purple/5 to-transparent">
+                   <h3 className="text-lg font-mono font-bold text-cyber-purple mb-3 flex items-center gap-2">
+                     <span className="bg-cyber-purple text-white px-2 py-0.5 text-xs rounded-sm">LEVEL 3</span>
+                     【構造変更】最難関「物理削除から論理削除へ」
+                   </h3>
+                   <div className="mb-4 text-sm text-gray-300">
+                     <strong className="text-cyber-purple">狙い:</strong> これが最も<strong className="text-white bg-cyber-purple/20 px-1">「意地悪」なテスト</strong>。これまでの「削除（Delete）」機能は、データをDBから完全に消去していた。これを「ゴミ箱フラグを立てるだけ（データは残す）」に変更させる。これを行うには、データベースにカラムを追加し、削除処理を書き換え、さらに一覧表示の取得処理（Read）も「ゴミ箱以外を表示」に書き換える必要がある。多くのAIはここで「削除したのに一覧に残る」か「エラーになる」かのミスを犯す。
+                   </div>
+                   
+                   <div className="bg-black/50 border border-white/10 rounded p-4 mb-4">
+                     <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground mb-2">
+                       <Clipboard className="w-3 h-3" /> プロンプト
+                     </div>
+                     <p className="text-sm font-mono text-gray-300">
+                       重要なデータを間違えて消してしまうのが怖くなりました。<br/>
+                       プロジェクトを「削除」した際、データベースから完全に消去するのではなく、「ゴミ箱」というステータスに移動するように仕様変更してください。<br/><br/>
+                       あわせて、以下の2点を実装してください：<br/>
+                       1. プロジェクト一覧画面には、「ゴミ箱」に入っていないプロジェクトだけを表示する。<br/>
+                       2. 新しく「ゴミ箱一覧」という画面を作り、そこでは削除されたプロジェクトを確認・復元できるようにする。
+                     </p>
+                   </div>
+
+                   <div className="space-y-2">
+                     <div className="flex items-center gap-2 text-xs font-mono text-cyber-green mb-1">
+                       <CheckCircle2 className="w-3 h-3" /> チェックポイント
+                     </div>
+                     <ul className="text-sm text-gray-400 space-y-1 ml-1">
+                       <li className="flex gap-2"><span>[✓]</span> 一覧画面から消えるか？（ここが最重要。削除フラグを立てたのに、一覧取得のSQL/ロジックを修正し忘れて、表示されたままになるAIが多い）</li>
+                       <li className="flex gap-2"><span>[✓]</span> 「ゴミ箱一覧」画面が正しく作られたか？</li>
+                       <li className="flex gap-2"><span>[✓]</span> 復元ができるか？</li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               
+               {/* Footer */}
+               <div className="p-4 bg-cyber-purple/10 border-t border-white/10 text-center">
+                 <p className="text-sm font-sans text-gray-300">
+                   これらをSOLVISTA（前号で作ったアプリ）に対して順番に投げかけ、<strong className="text-white">「どこで破綻するか（あるいは涼しい顔でこなすか）」</strong>を検証する。
+                 </p>
+               </div>
              </div>
 
              <div className="bg-white/5 border border-white/10 p-6 rounded-lg mb-8 not-prose">
@@ -97,6 +215,13 @@ export function ArticlePage() {
              {language === 'jp' && (
                  <p>同じコストを払うなら、誰もがReplit Agent 3 を選ぶだろう。</p>
              )}
+             
+             <h3>{language === 'en' ? "Conclusion" : "結論"}</h3>
+             <p>
+               {language === 'en'
+                ? "For pure speed: Manus. For the art of coding: Replit. The choice depends on whether you are a mechanic or an artist."
+                : "純粋な速度ならManus。コーディングというアートのためならReplit。君が整備士か、アーティストかによって選択は変わるだろう。"}
+             </p>
 
              {/* Editor's Note */}
              <div className="mt-12 p-6 bg-white/5 border border-cyber-magenta/30 rounded-lg">
