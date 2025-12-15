@@ -5,6 +5,8 @@ import { useLanguage } from "@/lib/i18n";
 import { useParams, Link } from "wouter";
 import { ArrowLeft, Share2, Bookmark } from "lucide-react";
 import { cn } from "@/lib/utils";
+import img3227 from "@assets/IMG_3227_1765813413744.jpg";
+import img3226 from "@assets/IMG_3226_1765813425582.JPG";
 
 export function ArticlePage() {
   const { id } = useParams();
@@ -112,6 +114,13 @@ export function ArticlePage() {
                    <p className="mb-4 text-sm text-gray-300">
                      この名前で、「バイブコーディング」の可能性がもっと世間に広まって欲しいと願っています。＜NA2KEN＞
                    </p>
+                   
+                   {/* Editor's Note Images */}
+                   <div className="flex flex-col md:flex-row gap-4 my-6">
+                     <img src={img3227} alt="Seminar scene 1" className="w-full md:w-1/2 rounded border border-white/10" />
+                     <img src={img3226} alt="Seminar scene 2" className="w-full md:w-1/2 rounded border border-white/10" />
+                   </div>
+
                    <p className="text-xs text-muted-foreground mt-6 border-t border-white/10 pt-2">
                      【注釈】「湯川塾」・・・ITジャーナリストである湯川鶴章（ゆかわ つるあき）氏が主宰する少人数制の勉強会です。
                    </p>
@@ -130,6 +139,13 @@ export function ArticlePage() {
                    <p className="mb-4 text-sm text-gray-300">
                      With this name, I hope the possibilities of "Vibe Coding" will spread further into the world. &lt;NA2KEN&gt;
                    </p>
+                   
+                   {/* Editor's Note Images */}
+                   <div className="flex flex-col md:flex-row gap-4 my-6">
+                     <img src={img3227} alt="Seminar scene 1" className="w-full md:w-1/2 rounded border border-white/10" />
+                     <img src={img3226} alt="Seminar scene 2" className="w-full md:w-1/2 rounded border border-white/10" />
+                   </div>
+
                    <p className="text-xs text-muted-foreground mt-6 border-t border-white/10 pt-2">
                      [Note] "Yukawa Juku" is a small-group study session hosted by IT journalist Tsuruaki Yukawa.
                    </p>
