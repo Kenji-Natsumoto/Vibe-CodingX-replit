@@ -222,6 +222,44 @@ export function ArticlePage() {
                       <p className="text-xs text-cyber-magenta font-mono mt-2 text-center">Manus 1.5: Level 1 Challenge</p>
                     </div>
                   </div>
+
+                  <div className="my-12"></div>
+
+                  {/* Level 2 Header */}
+                  <h3 className="text-lg font-mono font-bold text-cyber-magenta mb-3 flex items-center gap-2">
+                     <span className="bg-cyber-magenta text-black px-2 py-0.5 text-xs rounded-sm">LEVEL 2</span>
+                     【機能追加】
+                  </h3>
+
+                  <div className="flex flex-col gap-8">
+                    {/* Replit Agent 3 - Level 2 */}
+                    <div className="w-full">
+                      <iframe 
+                        className="w-full aspect-video border border-white/5" 
+                        src="https://www.youtube.com/embed/fRrqC7SIo2o?si=szSI-ZIUxIGECSRk" 
+                        title="Level 2: Replit Agent 3" 
+                        frameBorder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerPolicy="strict-origin-when-cross-origin" 
+                        allowFullScreen
+                      ></iframe>
+                      <p className="text-xs text-cyber-cyan font-mono mt-2 text-center">Replit Agent 3: Level 2 Challenge</p>
+                    </div>
+
+                    {/* Manus 1.5 - Level 2 */}
+                    <div className="w-full">
+                      <iframe 
+                        className="w-full aspect-video border border-white/5" 
+                        src="https://www.youtube.com/embed/Z2D5UpLUauk?si=1HuJyxj-inY4EQg4" 
+                        title="Level 2: Manus 1.5" 
+                        frameBorder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerPolicy="strict-origin-when-cross-origin" 
+                        allowFullScreen
+                      ></iframe>
+                      <p className="text-xs text-cyber-magenta font-mono mt-2 text-center">Manus 1.5: Level 2 Challenge</p>
+                    </div>
+                  </div>
                   <p className="text-xs text-muted-foreground mt-2 font-mono text-center">
                     Live demo of the 3-step modification challenge.
                   </p>
