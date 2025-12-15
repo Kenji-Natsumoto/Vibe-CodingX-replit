@@ -311,7 +311,7 @@ export function ArticlePage() {
              <p className="mb-6">
                {language === 'en' 
                  ? "The battle for supremacy in the AI coding agent space has reached a fever pitch. In one corner, the reigning champion Replit Agent 3. In the other, the mysterious challenger Manus 1.5. We didn't just look at the specs; we threw them into the fire."
-                 : "AIコーディングエージェントの覇権争いは最高潮に達している。現王者Replit Agent 3に対し、謎多き挑戦者Manus 1.5。スペック比較だけではない、実戦での火花散る戦いを検証した。"}
+                 : "謎多きスピードキング：Replit Agent 3 と後発の優等生：Manus 1.5だが、合計6つの検証中、絶えず思いがけない結果が待っていた。"}
              </p>
              
              <h2>{language === 'en' ? "The Benchmark" : "ベンチマーク結果"}</h2>
