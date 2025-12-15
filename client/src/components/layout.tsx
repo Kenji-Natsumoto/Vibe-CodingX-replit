@@ -62,7 +62,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <span className="font-mono text-xs text-cyber-green">SYSTEM STATUS: ONLINE</span>
           </div>
           <p className="font-mono text-xs text-muted-foreground text-center md:text-right">
-            © 2025 VIBECODINGX. {t('footer.rights')} <br/>
+            © SPRINT Japan All rights reserved.<br/>
             <span className="text-[10px] opacity-50">DESIGNED FOR THE REPLIT GENERATION</span>
           </p>
         </div>
