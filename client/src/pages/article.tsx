@@ -186,6 +186,13 @@ export function ArticlePage() {
                   <h3 className="text-2xl font-display font-bold text-cyber-cyan mb-4 text-glow">
                     画面Rec.
                   </h3>
+                  
+                  {/* Level 1 Header */}
+                  <h3 className="text-lg font-mono font-bold text-cyber-cyan mb-3 flex items-center gap-2">
+                     <span className="bg-cyber-cyan text-black px-2 py-0.5 text-xs rounded-sm">LEVEL 1</span>
+                     【デザイン・条件分岐】
+                  </h3>
+
                   <div className="aspect-video bg-black flex items-center justify-center border border-white/5">
                     <p className="font-mono text-muted-foreground text-xs">[VIDEO SIGNAL LOST - PLACEHOLDER]</p>
                   </div>
