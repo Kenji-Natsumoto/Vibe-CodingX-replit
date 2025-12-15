@@ -193,8 +193,34 @@ export function ArticlePage() {
                      【デザイン・条件分岐】
                   </h3>
 
-                  <div className="aspect-video bg-black flex items-center justify-center border border-white/5">
-                    <p className="font-mono text-muted-foreground text-xs">[VIDEO SIGNAL LOST - PLACEHOLDER]</p>
+                  <div className="flex flex-col gap-8">
+                    {/* Replit Agent 3 - Level 1 */}
+                    <div className="w-full">
+                      <iframe 
+                        className="w-full aspect-video border border-white/5" 
+                        src="https://www.youtube.com/embed/DOJpn6r562I?si=_PnP-HDTsHKzvOnM" 
+                        title="Level 1: Replit Agent 3" 
+                        frameBorder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerPolicy="strict-origin-when-cross-origin" 
+                        allowFullScreen
+                      ></iframe>
+                      <p className="text-xs text-cyber-cyan font-mono mt-2 text-center">Replit Agent 3: Level 1 Challenge</p>
+                    </div>
+
+                    {/* Manus 1.5 - Level 1 */}
+                    <div className="w-full">
+                      <iframe 
+                        className="w-full aspect-video border border-white/5" 
+                        src="https://www.youtube.com/embed/FemixzKlCgA?si=DNBVnt2KXfU3epW_" 
+                        title="Level 1: Manus 1.5" 
+                        frameBorder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerPolicy="strict-origin-when-cross-origin" 
+                        allowFullScreen
+                      ></iframe>
+                      <p className="text-xs text-cyber-magenta font-mono mt-2 text-center">Manus 1.5: Level 1 Challenge</p>
+                    </div>
                   </div>
                   <p className="text-xs text-muted-foreground mt-2 font-mono text-center">
                     Live demo of the 3-step modification challenge.
