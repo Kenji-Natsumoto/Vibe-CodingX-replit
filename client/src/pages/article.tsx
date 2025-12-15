@@ -304,6 +304,10 @@ export function ArticlePage() {
                </div>
              </div>
 
+             <h3 className="text-2xl font-display font-bold text-cyber-cyan mb-4 text-glow mt-12">
+               {language === 'en' ? "Verification Results" : "検証結果"}
+             </h3>
+
              <p className="mb-6">
                {language === 'en' 
                  ? "The battle for supremacy in the AI coding agent space has reached a fever pitch. In one corner, the reigning champion Replit Agent 3. In the other, the mysterious challenger Manus 1.5. We didn't just look at the specs; we threw them into the fire."
