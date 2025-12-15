@@ -1,12 +1,12 @@
 import { ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Legend, Tooltip } from 'recharts';
 
 const data = [
-  { subject: 'Visual Context', A: 120, B: 110, fullMark: 150 },
-  { subject: 'Speed', A: 98, B: 130, fullMark: 150 },
-  { subject: 'Accuracy', A: 86, B: 130, fullMark: 150 },
-  { subject: 'UX/UI', A: 99, B: 100, fullMark: 150 },
-  { subject: 'Setup Ease', A: 85, B: 90, fullMark: 150 },
-  { subject: 'Vibe', A: 140, B: 85, fullMark: 150 },
+  { subject: 'Visual Context', A: 90, B: 80, fullMark: 100 },
+  { subject: 'Speed', A: 100, B: 90, fullMark: 100 },
+  { subject: 'Accuracy', A: 90, B: 80, fullMark: 100 },
+  { subject: 'UX/UI', A: 90, B: 80, fullMark: 100 },
+  { subject: 'Step Ease', A: 85, B: 90, fullMark: 100 },
+  { subject: 'Vibe', A: 90, B: 80, fullMark: 100 },
 ];
 
 export function BenchmarkChart() {
@@ -17,7 +17,7 @@ export function BenchmarkChart() {
         <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
           <PolarGrid stroke="#333" />
           <PolarAngleAxis dataKey="subject" tick={{ fill: '#E0E6FF', fontSize: 12, fontFamily: 'Orbitron' }} />
-          <PolarRadiusAxis angle={30} domain={[0, 150]} tick={false} axisLine={false} />
+          <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
           <Radar
             name="Replit Agent 3"
             dataKey="A"
