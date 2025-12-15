@@ -90,13 +90,6 @@ export function ArticlePage() {
              {language === 'jp' && (
                  <p>同じコストを払うなら、誰もがReplit Agent 3 を選ぶだろう。</p>
              )}
-             
-             <h3>{language === 'en' ? "Conclusion" : "結論"}</h3>
-             <p>
-               {language === 'en'
-                ? "For pure speed: Manus. For the art of coding: Replit. The choice depends on whether you are a mechanic or an artist."
-                : "純粋な速度ならManus。コーディングというアートのためならReplit。君が整備士か、アーティストかによって選択は変わるだろう。"}
-             </p>
 
              {/* Editor's Note */}
              <div className="mt-12 p-6 bg-white/5 border border-cyber-magenta/30 rounded-lg">
