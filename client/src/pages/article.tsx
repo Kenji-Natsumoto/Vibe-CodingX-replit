@@ -398,7 +398,7 @@ export function ArticlePage() {
             <p>
               {language === 'en'
                ? "However, Manus 1.5 has simple integration with Stripe (payment system) and simple authentication (using Manus login), so we must not forget that secure content and billing systems can be built immediately."
-               : "ただし、Manus 1.5にはStripe（決済システム）との簡易連携機能と簡易認証機能（manusのログイン機能を利用する）があり、セキュアなコンテンツや課金システムをすぐに構築できることを忘れてはならない。"}
+               : "ただし、Manus 1.5にはStripe（決済システム）との簡易連携機能と簡易認証機能（manusのログイン機能を利用する）があり、ユーザー認証の必要なアプリやサブスクなどを比較的簡単に始められる優位性を忘れてはならない。"}
             </p>
 
              {/* Editor's Note */}
