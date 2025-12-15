@@ -3,7 +3,7 @@ import { BenchmarkChart } from "@/components/infographic";
 import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
 import { useParams, Link } from "wouter";
-import { ArrowLeft, Share2, Bookmark, CheckCircle2, Clipboard } from "lucide-react";
+import { ArrowLeft, Share2, Bookmark, CheckCircle2, Clipboard, Zap, Brain } from "lucide-react";
 import { cn } from "@/lib/utils";
 import img3227 from "@assets/IMG_3227_1765813413744.jpg";
 import img3226 from "@assets/IMG_3226_1765813425582.JPG";
