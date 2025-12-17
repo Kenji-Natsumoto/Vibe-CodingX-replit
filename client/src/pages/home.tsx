@@ -49,7 +49,7 @@ export function Home() {
             {/* Newsletter placeholder */}
             <div className="border border-cyber-purple/30 bg-cyber-purple/5 p-6 rounded-lg text-center">
               <h3 className="text-lg font-display text-white mb-2">JOIN THE NETWORK</h3>
-              <p className="text-xs text-muted-foreground mb-4">Get updates on the 5th, 15th, and 25th.</p>
+              <p className="text-xs text-muted-foreground mb-4">Get updates every Wednesday.</p>
               <input 
                 type="email" 
                 placeholder="ENTER EMAIL" 
