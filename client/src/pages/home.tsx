@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 import { Layout } from "@/components/layout";
 import { Hero } from "@/components/hero";
 import { ScheduleDisplay } from "@/components/schedule-display";
