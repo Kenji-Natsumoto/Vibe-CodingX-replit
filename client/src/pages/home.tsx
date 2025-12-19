@@ -33,6 +33,26 @@ export function Home() {
           <div className="space-y-8">
             <ScheduleDisplay />
             
+            {/* Rosina Promo */}
+            <Link href="/rosina">
+              <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-cyan/50 transition-colors cursor-pointer bg-black/40">
+                <div className="absolute inset-0 bg-gradient-to-br from-cyber-purple/10 to-transparent opacity-50 group-hover:opacity-100 transition-opacity" />
+                <div className="p-6 relative z-10">
+                  <span className="text-xs font-mono text-cyber-magenta mb-2 block tracking-widest">NEW SERIES</span>
+                  <h3 className="text-xl font-serif font-bold text-white mb-2 group-hover:text-cyber-cyan transition-colors">
+                    ロジーナA<br/>
+                    <span className="text-sm font-sans font-normal text-muted-foreground">触覚ログと航行記録</span>
+                  </h3>
+                  <p className="text-xs text-gray-400 font-mono line-clamp-2 mb-4">
+                    そのデバイスは、机の上に「置かれている」と表現するのが最も近い。だが正確ではない...
+                  </p>
+                  <div className="flex items-center text-xs text-cyber-cyan font-mono uppercase tracking-wider">
+                    Read Novel &rarr;
+                  </div>
+                </div>
+              </div>
+            </Link>
+
             <div className="border border-white/10 bg-card/50 p-6 rounded-lg">
               <h3 className="text-lg font-mono text-cyber-green mb-4 border-b border-cyber-green/30 pb-2">
                 TRENDING TAGS
