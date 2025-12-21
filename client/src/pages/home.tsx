@@ -5,6 +5,7 @@ import { ScheduleDisplay } from "@/components/schedule-display";
 import { ArticleCard } from "@/components/article-card";
 import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
+import rosinaBg from "@assets/generated_images/female_ai_humanoid_silhouette_cyberpunk_background.png";
 
 export function Home() {
   const { t } = useLanguage();
@@ -36,17 +37,31 @@ export function Home() {
             
             {/* Rosina Promo */}
             <Link href="/rosina">
-              <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-cyan/50 transition-colors cursor-pointer bg-black/40">
-                <div className="absolute inset-0 bg-gradient-to-br from-cyber-purple/10 to-transparent opacity-50 group-hover:opacity-100 transition-opacity" />
+              <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-cyan/50 transition-colors cursor-pointer min-h-[300px] flex flex-col justify-end">
+                {/* Background Image */}
+                <img 
+                  src={rosinaBg} 
+                  alt="Rosina Background" 
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                
+                {/* Overlay Gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent" />
+                
                 <div className="p-6 relative z-10">
-                  <span className="text-xs font-mono text-cyber-magenta mb-2 block tracking-widest">NEW SERIES</span>
-                  <h3 className="text-xl font-serif font-bold text-white mb-2 group-hover:text-cyber-cyan transition-colors">
-                    ロジーナA<br/>
-                    <span className="text-sm font-sans font-normal text-muted-foreground">触覚ログと航行記録</span>
+                  <span className="text-xs font-mono text-cyber-magenta mb-2 block tracking-widest border-b border-cyber-magenta/30 pb-2 w-fit">
+                    NEW SERIES
+                  </span>
+                  
+                  <h4 className="text-sm font-sans font-bold text-white/90 mb-1">
+                    100% AIが描く未来私小説
+                  </h4>
+                  
+                  <h3 className="text-xl font-serif font-bold text-white mb-4 group-hover:text-cyber-cyan transition-colors text-glow">
+                    （第1話）<br/>
+                    ― ロジーナA｜触覚ログと航行記録 ―
                   </h3>
-                  <p className="text-xs text-gray-400 font-mono line-clamp-2 mb-4">
-                    そのデバイスは、机の上に「置かれている」と表現するのが最も近い。だが正確ではない...
-                  </p>
+                  
                   <div className="flex items-center text-xs text-cyber-cyan font-mono uppercase tracking-wider">
                     Read Novel &rarr;
                   </div>
