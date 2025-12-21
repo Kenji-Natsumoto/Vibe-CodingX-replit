@@ -3,6 +3,7 @@ import { useLanguage } from "@/lib/i18n";
 import { Link } from "wouter";
 import { ArrowLeft, Clock, Share2, Bookmark } from "lucide-react";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 // Images
 import veilImage from "@assets/generated_images/minimalist_translucent_device_on_desk.png";
@@ -11,6 +12,10 @@ import airportImage from "@assets/generated_images/empty_airport_terminal_at_daw
 
 export function RosinaPage() {
   const { language } = useLanguage();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
