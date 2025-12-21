@@ -1,11 +1,11 @@
 import { Link } from "wouter";
 import { Layout } from "@/components/layout";
 import { Hero } from "@/components/hero";
-import { ScheduleDisplay } from "@/components/schedule-display";
 import { ArticleCard } from "@/components/article-card";
 import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
 import rosinaBg from "@assets/generated_images/female_ai_humanoid_silhouette_cyberpunk_background.png";
+import { Radio, FlaskConical, BookOpen, PenTool } from "lucide-react";
 
 export function Home() {
   const { t } = useLanguage();
@@ -15,29 +15,64 @@ export function Home() {
       <div className="space-y-16">
         <Hero />
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          <div className="lg:col-span-2 space-y-8">
-            <div className="flex items-center justify-between border-b border-white/10 pb-4">
-              <h2 className="text-2xl font-display font-bold uppercase tracking-wider text-white">
-                {t('article.latest')}
+        {/* Main 4 Sections Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          {/* 1. VibeCoding News (Placeholder) */}
+          <section className="space-y-6">
+            <div className="flex items-center gap-3 border-b border-white/10 pb-4">
+              <div className="p-2 bg-cyber-green/10 rounded">
+                <Radio className="w-5 h-5 text-cyber-green" />
+              </div>
+              <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
+                {t('section.news')}
               </h2>
-              <div className="h-2 w-20 bg-cyber-magenta animate-pulse" />
             </div>
+            
+            <div className="border border-white/10 bg-black/40 p-8 rounded-lg min-h-[300px] flex items-center justify-center relative overflow-hidden group">
+              <div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,transparent,transparent_10px,rgba(0,255,0,0.03)_10px,rgba(0,255,0,0.03)_20px)]" />
+              <div className="text-center">
+                <p className="text-cyber-green font-mono text-sm animate-pulse mb-2">
+                  /// SYSTEM INITIALIZING
+                </p>
+                <p className="text-muted-foreground text-xs uppercase tracking-widest">
+                  {t('coming.soon')}
+                </p>
+              </div>
+            </div>
+          </section>
 
-            <div className="grid gap-8">
-              {articles.map(article => (
+          {/* 2. Experimental Logs (Replit vs Manus) */}
+          <section className="space-y-6">
+            <div className="flex items-center gap-3 border-b border-white/10 pb-4">
+              <div className="p-2 bg-cyber-cyan/10 rounded">
+                <FlaskConical className="w-5 h-5 text-cyber-cyan" />
+              </div>
+              <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
+                {t('section.experiments')}
+              </h2>
+            </div>
+            
+            <div className="flex flex-col gap-6">
+              {articles.filter(a => a.category === 'BENCHMARK').map(article => (
                 <ArticleCard key={article.id} article={article} />
               ))}
-              {/* Duplicate for demo layout balance if needed, but keeping it real for now */}
             </div>
-          </div>
+          </section>
 
-          <div className="space-y-8">
-            <ScheduleDisplay />
+          {/* 3. Future Novel (Rosina) */}
+          <section className="space-y-6">
+            <div className="flex items-center gap-3 border-b border-white/10 pb-4">
+              <div className="p-2 bg-cyber-magenta/10 rounded">
+                <BookOpen className="w-5 h-5 text-cyber-magenta" />
+              </div>
+              <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
+                {t('section.novel')}
+              </h2>
+            </div>
             
-            {/* Rosina Promo */}
             <Link href="/novel/rosina">
-              <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-cyan/50 transition-colors cursor-pointer min-h-[300px] flex flex-col justify-end">
+              <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-magenta/50 transition-colors cursor-pointer min-h-[350px] flex flex-col justify-end">
                 {/* Background Image */}
                 <img 
                   src={rosinaBg} 
@@ -68,34 +103,32 @@ export function Home() {
                 </div>
               </div>
             </Link>
+          </section>
 
-            <div className="border border-white/10 bg-card/50 p-6 rounded-lg">
-              <h3 className="text-lg font-mono text-cyber-green mb-4 border-b border-cyber-green/30 pb-2">
-                TRENDING TAGS
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {['#VibeCoding', '#AI', '#Replit', '#Manus', '#FutureTech', '#Cyberpunk'].map(tag => (
-                  <span key={tag} className="text-xs font-mono text-muted-foreground hover:text-cyber-cyan cursor-pointer transition-colors">
-                    {tag}
-                  </span>
-                ))}
+          {/* 4. Beginner's Note (Placeholder) */}
+          <section className="space-y-6">
+            <div className="flex items-center gap-3 border-b border-white/10 pb-4">
+              <div className="p-2 bg-cyber-purple/10 rounded">
+                <PenTool className="w-5 h-5 text-cyber-purple" />
+              </div>
+              <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
+                {t('section.beginners')}
+              </h2>
+            </div>
+            
+            <div className="border border-white/10 bg-black/40 p-8 rounded-lg min-h-[300px] flex items-center justify-center relative overflow-hidden group">
+              <div className="absolute inset-0 bg-[repeating-linear-gradient(-45deg,transparent,transparent_10px,rgba(138,43,226,0.03)_10px,rgba(138,43,226,0.03)_20px)]" />
+              <div className="text-center">
+                <p className="text-cyber-purple font-mono text-sm animate-pulse mb-2">
+                  /// CONTENT LOADING
+                </p>
+                <p className="text-muted-foreground text-xs uppercase tracking-widest">
+                  {t('coming.soon')}
+                </p>
               </div>
             </div>
+          </section>
 
-            {/* Newsletter placeholder */}
-            <div className="border border-cyber-purple/30 bg-cyber-purple/5 p-6 rounded-lg text-center">
-              <h3 className="text-lg font-display text-white mb-2">JOIN THE NETWORK</h3>
-              <p className="text-xs text-muted-foreground mb-4">Get updates every Wednesday.</p>
-              <input 
-                type="email" 
-                placeholder="ENTER EMAIL" 
-                className="w-full bg-black/50 border border-white/20 p-2 text-sm font-mono text-white mb-2 focus:border-cyber-cyan outline-none"
-              />
-              <button className="w-full bg-cyber-purple text-white font-mono text-xs uppercase py-2 hover:bg-cyber-purple/80 transition-colors">
-                Connect
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </Layout>

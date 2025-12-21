@@ -23,7 +23,12 @@ export const translations = {
     "read.more": "Read Data //",
     "footer.rights": "All Rights Reserved.",
     "back.to.base": "Back to Base",
-    "serialized.novel": "SERIALIZED NOVEL"
+    "serialized.novel": "SERIALIZED NOVEL",
+    "section.news": "VibeCoding News",
+    "section.experiments": "Experimental Logs",
+    "section.novel": "Future Novel",
+    "section.beginners": "Beginner's Note",
+    "coming.soon": "COMING SOON..."
   },
   jp: {
     "nav.home": "ホーム",
@@ -37,7 +42,12 @@ export const translations = {
     "read.more": "データを読む //",
     "footer.rights": "全著作権所有。",
     "back.to.base": "ベースに戻る",
-    "serialized.novel": "連載小説"
+    "serialized.novel": "連載小説",
+    "section.news": "VibeCodingニュース",
+    "section.experiments": "実験ログ",
+    "section.novel": "未来小説",
+    "section.beginners": "ビギナーズノート",
+    "coming.soon": "近日公開..."
   }
 };
 
