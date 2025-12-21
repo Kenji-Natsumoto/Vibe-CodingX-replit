@@ -25,7 +25,7 @@ export function Hero() {
             V.0.1.0 // BETA
           </span>
           
-          <h1 className="text-4xl md:text-6xl font-display font-bold uppercase leading-tight mb-4 glitch-effect" data-text="THE CODE EVOLUTION">
+          <h1 className="text-4xl md:text-6xl font-display font-bold uppercase leading-tight mb-4">
             THE CODE EVOLUTION
           </h1>
           <h2 className="text-xl md:text-2xl text-muted-foreground font-light mb-8 font-sans">
