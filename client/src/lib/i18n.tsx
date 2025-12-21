@@ -21,7 +21,9 @@ export const translations = {
     "schedule.next": "Next Drop",
     "article.latest": "Latest Transmission",
     "read.more": "Read Data //",
-    "footer.rights": "All Rights Reserved."
+    "footer.rights": "All Rights Reserved.",
+    "back.to.base": "Back to Base",
+    "serialized.novel": "SERIALIZED NOVEL"
   },
   jp: {
     "nav.home": "ホーム",
@@ -33,7 +35,9 @@ export const translations = {
     "schedule.next": "次回配信",
     "article.latest": "最新のトランスミッション",
     "read.more": "データを読む //",
-    "footer.rights": "全著作権所有。"
+    "footer.rights": "全著作権所有。",
+    "back.to.base": "ベースに戻る",
+    "serialized.novel": "連載小説"
   }
 };
 
