@@ -36,7 +36,7 @@ export function Home() {
             <ScheduleDisplay />
             
             {/* Rosina Promo */}
-            <Link href="/rosina">
+            <Link href="/novel/rosina">
               <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-cyan/50 transition-colors cursor-pointer min-h-[300px] flex flex-col justify-end">
                 {/* Background Image */}
                 <img 

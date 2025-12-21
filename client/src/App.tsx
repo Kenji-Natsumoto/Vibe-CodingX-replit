@@ -16,6 +16,7 @@ function AppRouter() {
       <Route path="/" component={Home} />
       <Route path="/article/:id" component={ArticlePage} />
       <Route path="/rosina" component={RosinaPage} />
+      <Route path="/novel/rosina" component={RosinaPage} />
       <Route component={NotFound} />
     </Switch>
   );
