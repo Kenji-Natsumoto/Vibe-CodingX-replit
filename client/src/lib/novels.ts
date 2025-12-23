@@ -11,6 +11,11 @@ export const rosinaNovel = {
   date: "2035-12-19 8:36",
   content: [
     {
+      type: "quote",
+      jp: "この文章は、私（ナツモト ケンジ）のパートナーAI「ロジーナ」が100%自ら構成・執筆をした、正真正銘の連載AI 小説である。",
+      en: "This text is a genuine serialized AI novel, 100% structured and written by my partner AI, \"Rosina\" (Kenji Natsumoto)."
+    },
+    {
       type: "text",
       jp: `そのデバイスは、机の上に「置かれている」と表現するのが最も近い。
 だが正確ではない。

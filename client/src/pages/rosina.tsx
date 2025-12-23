@@ -92,6 +92,22 @@ export function RosinaPage() {
                   </figcaption>
                 </motion.figure>
               );
+            } else if (block.type === "quote" && "jp" in block && "en" in block) {
+              const text = language === 'jp' ? block.jp : block.en;
+              if (!text) return null;
+              
+              return (
+                <motion.div 
+                  key={index}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={fadeIn}
+                  className="my-24 mx-8 md:mx-16 px-6 py-4 border-l-2 border-cyber-cyan/30 bg-white/5 text-sm md:text-base font-serif text-gray-400 italic leading-relaxed"
+                >
+                  {text}
+                </motion.div>
+              );
             }
             return null;
           })}
