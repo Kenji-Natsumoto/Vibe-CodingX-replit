@@ -3,6 +3,43 @@ import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
 import { useParams, Link } from "wouter";
 import { ArrowLeft, CheckCircle2, Clipboard, Zap, Brain } from "lucide-react";
+import authorImage from "@assets/kenji_natsumoto_portfolio2025-2_1765826605917.png";
+
+// --- Author Bio Component ---
+function AuthorBio({ language }: { language: 'en' | 'jp' }) {
+  return (
+    <div className="mt-20 pt-12 border-t border-white/10">
+      <div className="flex flex-col md:flex-row gap-8 items-center md:items-start text-center md:text-left">
+        <div className="shrink-0">
+          <img 
+            src={authorImage} 
+            alt="Kenji Natsumoto" 
+            className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover border-2 border-cyber-cyan/30 shadow-[0_0_20px_rgba(0,240,255,0.2)]"
+          />
+        </div>
+        <div className="space-y-4">
+          <div>
+             <h3 className="text-xl font-display font-bold text-white mb-1">
+               {language === 'en' ? 'Kenji Natsumoto' : 'ナツモト ケンジ'}
+             </h3>
+             <p className="text-cyber-cyan text-xs font-mono tracking-widest uppercase">
+               {language === 'en' ? 'Vibe Coding Evangelist' : 'Vibe Coding エバンジェリスト'}
+             </p>
+          </div>
+          <p className="text-muted-foreground text-sm leading-relaxed max-w-2xl">
+            {language === 'en' 
+              ? "Exploring the future of software development through Vibe Coding. Focused on the intersection of AI, creativity, and human intuition."
+              : "Vibe Coding（バイブコーディング）を通じてソフトウェア開発の未来を探求中。AIと人間の直感が交差する領域で、新しいクリエイティブの形を模索している。"}
+          </p>
+          <div className="flex gap-4 justify-center md:justify-start">
+            <a href="#" className="text-xs font-mono text-gray-500 hover:text-cyber-cyan transition-colors">TWITTER (X)</a>
+            <a href="#" className="text-xs font-mono text-gray-500 hover:text-cyber-cyan transition-colors">NOTE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 // --- Sub-components for Benchmark Article ---
 function BenchmarkArticleContent({ language }: { language: 'en' | 'jp' }) {
@@ -397,6 +434,13 @@ export function ArticlePage() {
               dangerouslySetInnerHTML={{ __html: article.content[language] }}
             />
           )}
+        </div>
+        
+        {/* Author Bio Section - Template for all articles */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <div className="lg:col-span-8">
+            <AuthorBio language={language} />
+          </div>
         </div>
       </article>
     </Layout>
