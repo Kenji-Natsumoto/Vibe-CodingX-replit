@@ -42,19 +42,25 @@ export function Home() {
             </div>
           </section>
 
-          {/* 2. Experimental Logs (Replit vs Manus) */}
+          {/* 2. Experimental Logs (Latest) */}
           <section className="space-y-6">
-            <div className="flex items-center gap-3 border-b border-white/10 pb-4">
-              <div className="p-2 bg-cyber-cyan/10 rounded">
-                <FlaskConical className="w-5 h-5 text-cyber-cyan" />
+            <div className="flex items-center justify-between border-b border-white/10 pb-4">
+              <div className="flex items-center gap-3">
+                <div className="p-2 bg-cyber-cyan/10 rounded">
+                  <FlaskConical className="w-5 h-5 text-cyber-cyan" />
+                </div>
+                <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
+                  {t('section.experiments')}
+                </h2>
               </div>
-              <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
-                {t('section.experiments')}
-              </h2>
+              <Link href="/articles" className="text-xs font-mono text-muted-foreground hover:text-cyber-cyan transition-colors uppercase tracking-wider">
+                View All &rarr;
+              </Link>
             </div>
             
             <div className="flex flex-col gap-6">
-              {articles.filter(a => a.category === 'BENCHMARK').map(article => (
+              {/* Show only the latest article (first one) */}
+              {articles.slice(0, 1).map(article => (
                 <ArticleCard key={article.id} article={article} />
               ))}
             </div>

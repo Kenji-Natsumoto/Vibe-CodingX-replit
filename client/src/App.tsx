@@ -8,12 +8,14 @@ import { LanguageProvider } from "@/lib/i18n";
 import NotFound from "@/pages/not-found";
 import { Home } from "@/pages/home";
 import { ArticlePage } from "@/pages/article";
+import { ArticlesPage } from "@/pages/articles";
 import { RosinaPage } from "@/pages/rosina";
 
 function AppRouter() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/articles" component={ArticlesPage} />
       <Route path="/article/:id" component={ArticlePage} />
       <Route path="/rosina" component={RosinaPage} />
       <Route path="/novel/rosina" component={RosinaPage} />
