@@ -85,6 +85,7 @@ export const articles: Article[] = [
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">よく使うプラットフォームは、推しのチームに似ている</h2>
             <p class="mb-6 leading-relaxed">よく使う開発プラットフォームは、<br>応援している推しのチームによく似ています。</p>
+            <p class="mb-6 leading-relaxed">私がよく使うプラットフォームは、1番は「<a href="https://lovable.dev/" target="_blank" rel="noopener noreferrer" class="text-cyber-cyan hover:underline">Lovable</a>」で、2番目「<a href="https://replit.com/" target="_blank" rel="noopener noreferrer" class="text-cyber-cyan hover:underline">replit Agent3</a>」です。</p>
             <p class="mb-6 leading-relaxed">資金調達のニュース。<br>新機能のリリース。<br>ロードマップの更新。</p>
             <p class="mb-6 leading-relaxed">自然と気になるし、追いかけたくなる。</p>
             <p class="mb-6 leading-relaxed">なぜならそれが、<strong>自分の次の一手を左右するから</strong>です。</p>
