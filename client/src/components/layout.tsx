@@ -25,7 +25,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/" className={cn("hover:text-cyber-cyan transition-colors uppercase", location === '/' && "text-cyber-cyan text-glow")}>
               {t('nav.home')}
             </Link>
-            <Link href="/article/replit-vs-manus" className={cn("hover:text-cyber-cyan transition-colors uppercase", location.includes('article') && "text-cyber-cyan text-glow")}>
+            <Link href="/articles" className={cn("hover:text-cyber-cyan transition-colors uppercase", location.includes('article') && "text-cyber-cyan text-glow")}>
               {t('nav.articles')}
             </Link>
             <span className="text-muted-foreground/50">|</span>
