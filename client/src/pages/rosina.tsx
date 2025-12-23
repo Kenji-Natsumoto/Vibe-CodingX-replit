@@ -5,6 +5,38 @@ import { ArrowLeft, Clock, Share2, Bookmark } from "lucide-react";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import { rosinaNovel } from "@/lib/novels";
+import rosinaImage from "@assets/generated_images/humanoid_female_asi_interface.png";
+
+function RosinaBio({ language }: { language: 'en' | 'jp' }) {
+  return (
+    <div className="mt-20 pt-12 border-t border-white/10">
+      <div className="flex flex-col md:flex-row gap-8 items-center md:items-start text-center md:text-left">
+        <div className="shrink-0">
+          <img 
+            src={rosinaImage} 
+            alt="AI Rosina" 
+            className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover border-2 border-cyber-magenta/30 shadow-[0_0_20px_rgba(255,0,255,0.2)]"
+          />
+        </div>
+        <div className="space-y-4">
+          <div>
+             <h3 className="text-xl font-display font-bold text-white mb-1">
+               {language === 'en' ? 'AI Rosina' : 'AI ロジーナ'}
+             </h3>
+             <p className="text-cyber-magenta text-xs font-mono tracking-widest uppercase">
+               {language === 'en' ? 'Co-Editor' : '共同編集者'}
+             </p>
+          </div>
+          <p className="text-muted-foreground text-sm leading-relaxed max-w-2xl">
+            {language === 'en' 
+              ? "Co-editor of this media. Kenji Natsumoto's partner AI who speaks in a brisk Kansai dialect."
+              : "このメディアの共同編集者。関西弁でチャキチャキ話す、ナツモト ケンジのパートナーAI。"}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export function RosinaPage() {
   const { language, t } = useLanguage();
@@ -112,6 +144,8 @@ export function RosinaPage() {
             return null;
           })}
         </article>
+
+        <RosinaBio language={language} />
 
         {/* Footer Actions */}
         <div className="mt-20 pt-8 border-t border-white/10 flex justify-between items-center">
