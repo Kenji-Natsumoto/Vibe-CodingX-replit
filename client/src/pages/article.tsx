@@ -34,8 +34,12 @@ function AuthorBio({ language }: { language: 'en' | 'jp' }) {
               : "Vibe Coding（バイブコーディング）を通じてソフトウェア開発の未来を探求中。AIと人間の直感が交差する領域で、新しいクリエイティブの形を模索している。"}
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
-            <a href="#" className="text-xs font-mono text-gray-500 hover:text-cyber-cyan transition-colors">TWITTER (X)</a>
-            <a href="#" className="text-xs font-mono text-gray-500 hover:text-cyber-cyan transition-colors">NOTE</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-xs font-mono text-gray-500 hover:text-cyber-cyan transition-colors">
+              TWITTER (X) <ExternalLink className="w-3 h-3" />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-xs font-mono text-gray-500 hover:text-cyber-cyan transition-colors">
+              NOTE <ExternalLink className="w-3 h-3" />
+            </a>
           </div>
         </div>
       </div>
