@@ -2,8 +2,10 @@ import { Layout } from "@/components/layout";
 import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
 import { useParams, Link } from "wouter";
-import { ArrowLeft, CheckCircle2, Clipboard, Zap, Brain } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Clipboard, Zap, Brain, ExternalLink } from "lucide-react";
 import authorImage from "@assets/kenji_natsumoto_portfolio2025-2_1765826605917.png";
+import img3227 from "@assets/IMG_3227_1765813413744.jpg";
+import img3226 from "@assets/IMG_3226_1765813425582.JPG";
 
 // --- Author Bio Component ---
 function AuthorBio({ language }: { language: 'en' | 'jp' }) {
@@ -375,6 +377,64 @@ function BenchmarkArticleContent({ language }: { language: 'en' | 'jp' }) {
             </li>
           </ul>
         </div>
+      </div>
+
+      {/* Restored Editor's Note */}
+      <div className="mt-16 not-prose border-t border-white/10 pt-8">
+        <h3 className="text-xl font-display font-bold text-cyber-cyan mb-6 text-glow">
+          {language === 'en' ? "Editor's Note" : "編集後記"}
+        </h3>
+        {language === 'jp' ? (
+          <>
+            <p className="mb-4 text-sm text-gray-300">
+              先週、<a href="https://fintech-engineer.connpass.com/event/377275/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-cyber-cyan hover:underline">フィンテック養成勉強会<ExternalLink className="w-3 h-3 ml-1" /></a>と<a href="https://www.youtube.com/@thewave_tv/videos" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-cyber-cyan hover:underline">湯川塾<ExternalLink className="w-3 h-3 ml-1" /></a>で、バイブコーディングについて解説をする機会をいただきました。
+            </p>
+            <p className="mb-4 text-sm text-gray-300">
+              双方とも参加者の約30〜40%の方が「バイブコーディングを聞いたことがある」あるいは「知っている・やったことがある」とお答でした。
+            </p>
+            <p className="mb-4 text-sm text-gray-300">
+              このことが、今回、「テックトレンド情報」から「バイブコーディング」にテーマを絞ろうという決意を後押ししました。PDFから脱皮して専門のメディアにしたかったので、ドメイン名を考えた結果、かの「SpaceX」にあやかって「VibeCodingX」と名付けました。
+            </p>
+            <p className="mb-4 text-sm text-gray-300">
+              この名前で、「バイブコーディング」の可能性がもっと世間に広まって欲しいと願っています。＜NA2KEN＞
+            </p>
+            
+            {/* Editor's Note Images */}
+            <div className="flex flex-col md:flex-row gap-4 my-6">
+              <img src={img3227} alt="Seminar scene 1" className="w-full md:w-1/2 rounded border border-white/10" />
+              <img src={img3226} alt="Seminar scene 2" className="w-full md:w-1/2 rounded border border-white/10" />
+            </div>
+
+            <p className="text-xs text-muted-foreground mt-6 border-t border-white/10 pt-2">
+              【注釈】「湯川塾」・・・ITジャーナリストである湯川鶴章（ゆかわ つるあき）氏が主宰する少人数制の勉強会です。
+            </p>
+          </>
+        ) : (
+          <>
+            <p className="mb-4 text-sm text-gray-300">
+              Last week, I had the opportunity to explain Vibe Coding at a Fintech study group and Yukawa Juku.
+            </p>
+            <p className="mb-4 text-sm text-gray-300">
+              In both sessions, about 30-40% of participants answered that they had "heard of Vibe Coding" or "knew/had tried it."
+            </p>
+            <p className="mb-4 text-sm text-gray-300">
+              This encouraged my decision to narrow the theme from general "Tech Trend Information" to specifically "Vibe Coding." I wanted to evolve from PDFs into a specialized media outlet. After considering domain names, I named it "VibeCodingX," inspired by "SpaceX."
+            </p>
+            <p className="mb-4 text-sm text-gray-300">
+              With this name, I hope the possibilities of "Vibe Coding" will spread further into the world. &lt;NA2KEN&gt;
+            </p>
+            
+            {/* Editor's Note Images */}
+            <div className="flex flex-col md:flex-row gap-4 my-6">
+              <img src={img3227} alt="Seminar scene 1" className="w-full md:w-1/2 rounded border border-white/10" />
+              <img src={img3226} alt="Seminar scene 2" className="w-full md:w-1/2 rounded border border-white/10" />
+            </div>
+
+            <p className="text-xs text-muted-foreground mt-6 border-t border-white/10 pt-2">
+              [Note] "Yukawa Juku" is a small-group study session hosted by IT journalist Tsuruaki Yukawa.
+            </p>
+          </>
+        )}
       </div>
     </div>
   );
