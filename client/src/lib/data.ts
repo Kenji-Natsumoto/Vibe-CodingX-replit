@@ -85,12 +85,12 @@ export const articles: Article[] = [
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">よく使うプラットフォームは、推しのチームに似ている</h2>
             <p class="mb-6 leading-relaxed">よく使う開発プラットフォームは、<br>応援している推しのチームによく似ています。</p>
-            <p class="mb-6 leading-relaxed">私が1番よく使うプラットフォームは「<a href="https://lovable.dev/" target="_blank" rel="noopener noreferrer" class="text-cyber-cyan hover:underline">Lovable</a>」、2番目は「<a href="https://replit.com/~" target="_blank" rel="noopener noreferrer" class="text-cyber-cyan hover:underline">replit Agent3</a>」です。Lovableは、2025年の9月から使い始めたプラットフォームで、それまではノーコードツール「bubble」を使っていました。今、一番使用頻度が多くて、性能がいいのは「replit Agent3」です。</p>
             <p class="mb-6 leading-relaxed">資金調達のニュース。<br>新機能のリリース。<br>ロードマップの更新。</p>
             <p class="mb-6 leading-relaxed">自然と気になるし、追いかけたくなる。</p>
             <p class="mb-6 leading-relaxed">なぜならそれが、<strong>自分の次の一手を左右するから</strong>です。</p>
             <p class="mb-6 leading-relaxed">「今、何ができるようになったのか」<br>「どこまで任せられるようになったのか」</p>
             <p class="mb-6 leading-relaxed">これを知っているかどうかで、<br>プロンプトの書き方も、設計の発想も、大きく変わります。</p>
+            <p class="mb-6 leading-relaxed">私が今1番よく使うプラットフォームは「<a href="https://lovable.dev/" target="_blank" rel="noopener noreferrer" class="text-cyber-cyan hover:underline">Lovable</a>」で、2番目は「<a href="https://replit.com/~" target="_blank" rel="noopener noreferrer" class="text-cyber-cyan hover:underline">replit Agent3</a>」です。Lovableは、2025年の9月から使い始めたプラットフォームで、それまではノーコードツール「bubble」を使っていました。2025年12月23日現在、一番使用頻度が多くて、一番性能が良く、信頼しているのは「<a href="https://replit.com/~" target="_blank" rel="noopener noreferrer" class="text-cyber-cyan hover:underline">replit Agent3</a>」です。</p>
           </section>
 
           <hr class="border-white/10" />
