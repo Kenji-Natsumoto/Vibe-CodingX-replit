@@ -192,9 +192,12 @@ export const articles: Article[] = [
               </div>
 
               <div>
-                <h4 class="text-lg font-bold text-cyber-purple mb-2">ふざけた系：イーロン・マスクのララバイ</h4>
-                <p class="text-sm mb-2">真面目なものだけでなく、こうした振り切った実験もできる。遊びと本気が、同じ地平にある。それもバイブコーディングの特徴です。</p>
-                <a href="https://suno.com/s/0Jpw2jWPTa0tsp2w" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">LISTEN ON SUNO &rarr;</a>
+                <h4 class="text-lg font-bold text-cyber-purple mb-2">コミックソング：イーロン・マスクのララバイ</h4>
+                <p class="text-sm mb-2">真面目なものだけでなく、こうした「おふざけ」の実験もできます。遊びと本気が、同じ地平にある音空間。これもバイブコーディングの醍醐味です。</p>
+                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
+                  <p class="text-sm text-white font-mono">mid tempo anthem with driving drums deep synth bass wide pads spaced guitars bold hooks strong low end male vocals</p>
+                </div>
+                <a href="https://suno.com/s/0Jpw2jWPTa0tsp2w" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">イーロン・マスクのララバイ &rarr;</a>
               </div>
             </div>
           </section>
