@@ -3,9 +3,14 @@ import { useLanguage } from "@/lib/i18n";
 import { Link } from "wouter";
 import { ArrowLeft, Share2, Bookmark } from "lucide-react";
 import infographicImage from "@/assets/beginner_note_infographic.png";
+import { useEffect } from "react";
 
 export function BeginnerPage() {
   const { t } = useLanguage();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <Layout>
