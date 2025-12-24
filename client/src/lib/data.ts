@@ -171,7 +171,10 @@ export const articles: Article[] = [
             <div class="space-y-8">
               <div>
                 <h4 class="text-lg font-bold text-cyber-purple mb-2">チャレンジ系：こどもオペラ「カレーを作ろう 第一楽章（完成版）」</h4>
-                <p class="text-sm mb-2">物語性のある楽曲に挑戦しました。構成を変え、雰囲気を変え、バージョンを重ねています。</p>
+                <p class="text-sm mb-2">ちょっと変わった曲を創りたかったので、「子供向けオペラ」というジャンルを勝手に創ってみました。歌詞にこだわりがあり、何度もトライ＆エラーしてここまで辿り着きました。<br></p>
+                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
+                  <p class="text-sm text-white font-mono">Opera, Classic Music</p>
+                </div>
                 <a href="https://suno.com/s/UcKdbP7vFWLpmCsQ" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">LISTEN ON SUNO &rarr;</a>
               </div>
 
