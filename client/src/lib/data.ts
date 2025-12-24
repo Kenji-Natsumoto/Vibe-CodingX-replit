@@ -31,7 +31,7 @@ export const articles: Article[] = [
     type: 'standard',
     title: {
       en: "The Real Battle Starts at 99%: The Truth Behind Vibe Coding",
-      jp: "99％完成してからが本当の勝負だった ― リリース直前、仕様変更だらけの現場で見えたVibeコーディングの正体 ―"
+      jp: "99％完成してからが本当の勝負だった ― リリース直前、仕様変更だらけの現場で見えたバイブコーディングの正体 ―"
     },
     excerpt: {
       en: "Release tension, specification changes, and the true nature of Vibe Coding revealed in the final 1% of development.",
@@ -97,7 +97,7 @@ export const articles: Article[] = [
 
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">バイブコーディングでできること<br><span class="text-sm font-normal text-muted-foreground">― 抽象論ではなく、実例で ―</span></h2>
-            <p class="mb-6 leading-relaxed">「Vibeコーディングで何ができるのか、正直よく分からない」<br>そう感じている人も多いと思います。</p>
+            <p class="mb-6 leading-relaxed">「バイブコーディングで何ができるのか、正直よく分からない」<br>そう感じている人も多いと思います。</p>
             <p class="mb-6 leading-relaxed">なので、<strong>実際に作ったものを、そのまま出します。</strong></p>
 
             <div class="grid gap-12 mt-12">
@@ -129,7 +129,7 @@ export const articles: Article[] = [
                 <h3 class="text-xl font-bold text-cyber-magenta mb-4">教育アプリ：FinHabit</h3>
                 <img src="${finHabitImage}" alt="FinHabit" class="w-full rounded mb-4" />
                 <p class="mb-4 text-sm">投資初心者向けに、「学ぶ」と「続ける」をセットにした教育アプリです。</p>
-                <p class="mb-4 text-sm">難しい言葉を減らす。行動につながる導線を作る。この2点だけでも、仕様は何度も動きました。ユーザー視点に立てば立つほど、仕様は必ず変わる。それを前提にできるのが、Vibeコーディングです。</p>
+                <p class="mb-4 text-sm">難しい言葉を減らす。行動につながる導線を作る。この2点だけでも、仕様は何度も動きました。ユーザー視点に立てば立つほど、仕様は必ず変わる。それを前提にできるのが、バイブコーディングです。</p>
                 <a href="https://fin-habit-learn--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">OPEN APP</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
@@ -164,7 +164,7 @@ export const articles: Article[] = [
 
               <div>
                 <h4 class="text-lg font-bold text-cyber-purple mb-2">ふざけた系：イーロン・マスクのララバイ</h4>
-                <p class="text-sm mb-2">真面目なものだけでなく、こうした振り切った実験もできる。遊びと本気が、同じ地平にある。それもVibeコーディングの特徴です。</p>
+                <p class="text-sm mb-2">真面目なものだけでなく、こうした振り切った実験もできる。遊びと本気が、同じ地平にある。それもバイブコーディングの特徴です。</p>
                 <a href="https://suno.com/s/0Jpw2jWPTa0tsp2w" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">LISTEN ON SUNO &rarr;</a>
               </div>
             </div>
@@ -191,7 +191,7 @@ export const articles: Article[] = [
               <li><strong>どのファイルの、どの部分を修正すべきか教えてください</strong></li>
             </ul>
             <p class="mb-6 leading-relaxed">と明示的に聞くことで、後から自分が手を入れるための「地図」を残します。</p>
-            <p class="mb-6 leading-relaxed">これは、Vibeコーディングを<strong>使い捨てにしないための重要なコツ</strong>です。</p>
+            <p class="mb-6 leading-relaxed">これは、バイブコーディングを<strong>使い捨てにしないための重要なコツ</strong>です。</p>
           </section>
 
           <hr class="border-white/10" />
@@ -203,7 +203,7 @@ export const articles: Article[] = [
             <p class="mb-6 leading-relaxed">続けるかどうかは、視聴者の反応と購読状況を見て決めます。</p>
             <p class="mb-6 leading-relaxed">ただ、一つだけはっきり言えることがあります。</p>
             <p class="mb-6 leading-relaxed">仕事のやり方は、もう確実に変わり始めています。</p>
-            <p class="mb-6 leading-relaxed">その変化のど真ん中にあるのが、<br><strong class="text-cyber-cyan text-lg">Vibeコーディング</strong>です。</p>
+            <p class="mb-6 leading-relaxed">その変化のど真ん中にあるのが、<br><strong class="text-cyber-cyan text-lg">バイブコーディング</strong>です。</p>
           </section>
         </div>
       `
