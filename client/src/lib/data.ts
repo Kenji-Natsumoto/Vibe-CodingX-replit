@@ -181,9 +181,12 @@ export const articles: Article[] = [
               <div>
                 <h4 class="text-lg font-bold text-cyber-purple mb-2">マジメ系：Prismatic Diver / KANAZAWA NIGHT</h4>
                 <p class="text-sm mb-2">「Prismatic Diver」は、80年代のAOR、ウェストコーストサウンドを意識して創りました。ギターのリフと曲の構成（特にイントロとエンディング）と声質にこだわりました。</p>
-                <p class="text-sm mb-2">「KANAZAWA NIGHT」は、あるイベントの雰囲気を曲にしたものです。自分がギターを弾くことを前提に、再現可能なシンプルなバンド構成にしました。</p>
                 <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
                   <p class="text-sm text-white font-mono">city pop, rock, synthpop</p>
+                </div>
+                <p class="text-sm mb-2">「KANAZAWA NIGHT」は、あるイベントの雰囲気を曲にしたものです。シンプルなバンド構成とアシッド・ジャズらしいノリが気に入っています。</p>
+                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
+                  <p class="text-sm text-white font-mono">jazz, mellow, acid jazz</p>
                 </div>
                 <div class="flex gap-4">
                   <a href="https://suno.com/s/Zo377suuvA6zFbYr" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">Prismatic Diver &rarr;</a>
