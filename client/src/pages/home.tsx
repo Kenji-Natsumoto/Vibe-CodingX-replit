@@ -30,7 +30,7 @@ export function Home() {
               </h2>
             </div>
             
-            <Link href="/beginner">
+            <Link href="/beginner/about-vibecoding">
               <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-purple/50 transition-colors cursor-pointer min-h-[350px] flex flex-col justify-end">
                 {/* Background Image */}
                 <img 
