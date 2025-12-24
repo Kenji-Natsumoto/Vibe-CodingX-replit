@@ -10,6 +10,7 @@ import { Home } from "@/pages/home";
 import { ArticlePage } from "@/pages/article";
 import { ArticlesPage } from "@/pages/articles";
 import { RosinaPage } from "@/pages/rosina";
+import { BeginnerPage } from "@/pages/beginner";
 
 function AppRouter() {
   return (
@@ -19,6 +20,7 @@ function AppRouter() {
       <Route path="/article/:id" component={ArticlePage} />
       <Route path="/rosina" component={RosinaPage} />
       <Route path="/novel/rosina" component={RosinaPage} />
+      <Route path="/beginner" component={BeginnerPage} />
       <Route component={NotFound} />
     </Switch>
   );

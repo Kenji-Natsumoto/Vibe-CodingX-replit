@@ -5,6 +5,7 @@ import { ArticleCard } from "@/components/article-card";
 import { articles } from "@/lib/data";
 import { useLanguage } from "@/lib/i18n";
 import rosinaBg from "@assets/generated_images/female_ai_humanoid_silhouette_cyberpunk_background.png";
+import infographicImage from "@/assets/beginner_note_infographic.png";
 import { Radio, FlaskConical, BookOpen, PenTool } from "lucide-react";
 
 export function Home() {
@@ -18,28 +19,49 @@ export function Home() {
         {/* Main 4 Sections Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           
-          {/* 1. VibeCoding News (Placeholder) */}
+          {/* 1. Beginner's Note (Swapped with News) */}
           <section className="space-y-6">
             <div className="flex items-center gap-3 border-b border-white/10 pb-4">
-              <div className="p-2 bg-cyber-green/10 rounded">
-                <Radio className="w-5 h-5 text-cyber-green" />
+              <div className="p-2 bg-cyber-purple/10 rounded">
+                <PenTool className="w-5 h-5 text-cyber-purple" />
               </div>
               <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
-                {t('section.news')}
+                {t('section.beginners')}
               </h2>
             </div>
             
-            <div className="border border-white/10 bg-black/40 p-8 rounded-lg min-h-[300px] flex items-center justify-center relative overflow-hidden group">
-              <div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,transparent,transparent_10px,rgba(0,255,0,0.03)_10px,rgba(0,255,0,0.03)_20px)]" />
-              <div className="text-center">
-                <p className="text-cyber-green font-mono text-sm animate-pulse mb-2">
-                  /// SYSTEM INITIALIZING
-                </p>
-                <p className="text-muted-foreground text-xs uppercase tracking-widest">
-                  {t('coming.soon')}
-                </p>
+            <Link href="/beginner">
+              <div className="group relative overflow-hidden rounded-lg border border-white/10 hover:border-cyber-purple/50 transition-colors cursor-pointer min-h-[350px] flex flex-col justify-end">
+                {/* Background Image */}
+                <img 
+                  src={infographicImage} 
+                  alt="Beginner's Note Infographic" 
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                
+                {/* Overlay Gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent" />
+                
+                <div className="p-6 relative z-10">
+                  <span className="text-xs font-mono text-cyber-purple mb-2 block tracking-widest border-b border-cyber-purple/30 pb-2 w-fit">
+                    ABOUT VIBE CODING
+                  </span>
+                  
+                  <h4 className="text-sm font-sans font-bold text-white/90 mb-1">
+                    まずはここから
+                  </h4>
+                  
+                  <h3 className="text-xl font-serif font-bold text-white mb-4 group-hover:text-cyber-cyan transition-colors text-glow">
+                    バイブコーディングとは何か？<br/>
+                    ― 5分でわかる図解ガイド ―
+                  </h3>
+                  
+                  <div className="flex items-center text-xs text-cyber-cyan font-mono uppercase tracking-wider">
+                    View Guide &rarr;
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
           </section>
 
           {/* 2. Experimental Logs (Latest) */}
@@ -111,22 +133,22 @@ export function Home() {
             </Link>
           </section>
 
-          {/* 4. Beginner's Note (Placeholder) */}
+          {/* 4. VibeCoding News (Moved to bottom right) */}
           <section className="space-y-6">
             <div className="flex items-center gap-3 border-b border-white/10 pb-4">
-              <div className="p-2 bg-cyber-purple/10 rounded">
-                <PenTool className="w-5 h-5 text-cyber-purple" />
+              <div className="p-2 bg-cyber-green/10 rounded">
+                <Radio className="w-5 h-5 text-cyber-green" />
               </div>
               <h2 className="text-xl font-display font-bold uppercase tracking-wider text-white">
-                {t('section.beginners')}
+                {t('section.news')}
               </h2>
             </div>
             
             <div className="border border-white/10 bg-black/40 p-8 rounded-lg min-h-[300px] flex items-center justify-center relative overflow-hidden group">
-              <div className="absolute inset-0 bg-[repeating-linear-gradient(-45deg,transparent,transparent_10px,rgba(138,43,226,0.03)_10px,rgba(138,43,226,0.03)_20px)]" />
+              <div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,transparent,transparent_10px,rgba(0,255,0,0.03)_10px,rgba(0,255,0,0.03)_20px)]" />
               <div className="text-center">
-                <p className="text-cyber-purple font-mono text-sm animate-pulse mb-2">
-                  /// CONTENT LOADING
+                <p className="text-cyber-green font-mono text-sm animate-pulse mb-2">
+                  /// SYSTEM INITIALIZING
                 </p>
                 <p className="text-muted-foreground text-xs uppercase tracking-widest">
                   {t('coming.soon')}
