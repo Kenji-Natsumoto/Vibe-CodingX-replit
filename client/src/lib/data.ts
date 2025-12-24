@@ -72,7 +72,7 @@ export const articles: Article[] = [
             <p class="mb-6 leading-relaxed">しかし、実際の現場では違います。</p>
             <p class="mb-6 leading-relaxed">触ってみて、初めて分かることがある。<br>動かしてみて、初めて見えるズレがある。<br>ユーザー目線に立った瞬間、違和感が浮き彫りになる。</p>
             <p class="mb-6 leading-relaxed">つまり仕様変更とは、<br><strong>失敗ではなく、理解が一段深くなったサイン</strong>です。</p>
-            <p class="mb-6 leading-relaxed">Vibeコーディングは、<br>この「気づいた瞬間」を、そのまま次の実装に持ち込める。</p>
+            <p class="mb-6 leading-relaxed">バイブコーディングは、<br>この「気づいた瞬間」を、そのまま次の実装に持ち込める。</p>
             <p class="mb-6 leading-relaxed">ここが、従来の開発との決定的な違いです。</p>
             
             <figure class="my-12">
