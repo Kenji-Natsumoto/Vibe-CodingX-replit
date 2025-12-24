@@ -119,6 +119,9 @@ export const articles: Article[] = [
                 <p class="mb-4 text-sm">こちらも昔懐かしい「ギャラクシアン」のコピーです。似てるけど全く同じではない、著作権を巧妙にクリアしています。</p>
                 <p class="mb-4 text-sm">そして、白状します。これはQ社のWさんのアイデアのパクリです（Wさんごめんなさい）。</p>
                 <p class="mb-4 text-sm">ちなみにWさんは、Gemini3で創られたそうですが、私は<a href="https://replit.com/~" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:underline">replit Agent3<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>で創りました。</p>
+                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
+                  <p class="text-sm text-white font-mono">ギャラクシアンを作って！</p>
+                </div>
                 <a href="https://galaxy-war--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">PLAY GAME</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
