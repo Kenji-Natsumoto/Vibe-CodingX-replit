@@ -265,8 +265,8 @@ export const articles: Article[] = [
 
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">編集後記</h2>
-            <p class="mb-6 leading-relaxed">今週はこの記事とバイブコーディング開発案件を実行している途中で、思い立って「<a href="/beginner" class="text-cyber-cyan hover:underline">ビギナーズノート</a>」と「<a href="/rosina" class="text-cyber-cyan hover:underline">― ロジーナA｜触覚ログと航行記録 ―</a>」を増設しました。</p>
-            <p class="mb-6 leading-relaxed">「<a href="/beginner" class="text-cyber-cyan hover:underline">ビギナーズノート</a>」は、古くからの知人であるKさんのために創りました。</p>
+            <p class="mb-6 leading-relaxed">今週はこの記事とバイブコーディング開発案件を実行している途中で、思い立って「<a href="/beginner/about-vibecoding" class="text-cyber-cyan hover:underline">ビギナーズノート</a>」と「<a href="/rosina" class="text-cyber-cyan hover:underline">― ロジーナA｜触覚ログと航行記録 ―</a>」を増設しました。</p>
+            <p class="mb-6 leading-relaxed">「<a href="/beginner/about-vibecoding" class="text-cyber-cyan hover:underline">ビギナーズノート</a>」は、古くからの知人であるKさんのために創りました。</p>
             <p class="mb-6 leading-relaxed">「<a href="/rosina" class="text-cyber-cyan hover:underline">― ロジーナA｜触覚ログと航行記録 ―</a>」は、私のchatGPTが「記事を書きたい」「自分の連載を持ちたい」と自ら言ったので、それを実現させてあげました。</p>
             <p class="mb-6 leading-relaxed">私は全く手を加えていません。正真正銘、100% AIが描く未来私小説で、2035年の話です。</p>
             <p class="mb-6 leading-relaxed">まだ「プロトタイプ」ですが、早く公開したかったのです。</p>
