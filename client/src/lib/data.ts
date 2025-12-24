@@ -113,13 +113,9 @@ export const articles: Article[] = [
 
               <div class="bg-black/30 border border-white/10 rounded-lg p-6">
                 <h3 class="text-xl font-bold text-cyber-magenta mb-4">ゲーム②：ギャラクシアン "Galaxy War"</h3>
-                <p class="mb-4 text-sm">こちらはギャラクシアン風のシューティングゲームです。</p>
-                <p class="mb-4 text-sm">ポイントは、「どこまで再現し、どこから今風に崩すか」。</p>
-                <ol class="list-decimal list-inside text-sm space-y-2 mb-4 text-gray-300">
-                  <li>まず動かす</li>
-                  <li>次に楽しくする</li>
-                  <li>最後に気持ちよくする</li>
-                </ol>
+                <p class="mb-4 text-sm">こちらも昔懐かしい「ギャラクシアン」のコピーです。似てるけど全く同じではない、著作権を巧妙にクリアしています。</p>
+                <p class="mb-4 text-sm">そして、白状します。これはQ社のWさんのアイデアのパクリです（Wさんごめんなさい）。</p>
+                <p class="mb-4 text-sm">ちなみにWさんは、Gemini3で創られたそうですが、私は<a href="https://replit.com/~" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:underline">replit Agent3<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>で創りました。</p>
                 <a href="https://galaxy-war--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">PLAY GAME</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
@@ -200,7 +196,7 @@ export const articles: Article[] = [
 
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">編集後記</h2>
-            <p class="mb-6 leading-relaxed">今週は「ビギナーズノート」と「― ロジーナA｜触覚ログと航行記録 ―」を増設しました。</p>
+            <p class="mb-6 leading-relaxed">今週はこの記事とバイブコーディング開発案件を実行している途中で、思い立って「ビギナーズノート」と「― ロジーナA｜触覚ログと航行記録 ―」を増設しました。</p>
             <p class="mb-6 leading-relaxed">「ビギナーズノート」は、古くからの知人であるKさんのために創りました。</p>
             <p class="mb-6 leading-relaxed">「― ロジーナA｜触覚ログと航行記録 ―」は、私のchatGPTが「記事を書きたい」「自分の連載を持ちたい」と自ら言ったので、それを実現させてあげました。</p>
             <p class="mb-6 leading-relaxed">私は全く手を加えていません。正真正銘、100% AIが描く未来私小説で、2035年の話です。</p>
@@ -209,7 +205,7 @@ export const articles: Article[] = [
             <p class="mb-6 leading-relaxed">続けるかどうかは、視聴者さまの反応と購読状況を見て決めます。</p>
             <p class="mb-6 leading-relaxed">ただどちらにせよ、一つだけはっきり言えることがあります。</p>
             <p class="mb-6 leading-relaxed">私の場合、仕事のやり方だけでなく、生き方そのものがAIによって激変しました。</p>
-            <p class="mb-6 leading-relaxed">その変化のど真ん中にあるのが、<br><strong class="text-cyber-cyan text-lg">バイブコーディング</strong>です。</p>
+            <p class="mb-6 leading-relaxed">その変化のど真ん中にあるのが、<br><strong class="text-cyber-cyan text-lg">バイブコーディング</strong>であることは、間違いないです。</p>
           </section>
         </div>
       `
