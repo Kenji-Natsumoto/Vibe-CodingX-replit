@@ -130,8 +130,28 @@ export const articles: Article[] = [
               <div class="bg-black/30 border border-white/10 rounded-lg p-6">
                 <h3 class="text-xl font-bold text-cyber-magenta mb-4">教育アプリ：FinHabit</h3>
                 <img src="${finHabitImage}" alt="FinHabit" class="w-full rounded mb-4" />
-                <p class="mb-4 text-sm">投資初心者向けに、「学ぶ」と「続ける」をセットにした教育アプリです。</p>
-                <p class="mb-4 text-sm">難しい言葉を減らす。行動につながる導線を作る。この2点だけでも、仕様は何度も動きました。ユーザー視点に立てば立つほど、仕様は必ず変わる。それを前提にできるのが、バイブコーディングです。</p>
+                <p class="mb-4 text-sm">投資初心者向けに「学ぶ」と「続ける」をセットにした教育アプリです。</p>
+                <p class="mb-4 text-sm">これは、イベントのデモ用に創ったものです。</p>
+                <p class="mb-4 text-sm">このアプリもプロンプト一回限りの一発出し。</p>
+                <p class="mb-4 text-sm">ちょっと長いですが、このように書きました。</p>
+                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
+                  <p class="text-sm text-white font-mono whitespace-pre-wrap">私は、投資信託の営業をしています。常日頃から正しい投資知識を持った方をひとりでも多くしたいと考えています。
+そこで、バイブコーディングで**投資初心者向け学習＆習慣トラッカー「FinHabit」**を作り、お客様にまずは無料で提供したいと考えていますので、このアプリができるまで、一緒に伴走してください。
+大まかな仕様は間な感じですので、要件定義やMVP実装仕様書は最小限にして、素早く動くプロトタイプを作って、お客様と共有したいと思っています。開発開始からデプロイまでの制限時間は10分と考えています。
+＜大まかな仕様＞
+#AIクイズ：
+一日3問のクイズをランダムで90日、毎日楽しく続けることで90日後には、かなりの投資知識を得ることができるようにしたいです。クイズのランクは＜初級＞＜中級＞＜上級＞で別れており、自分のレベルに合わせて選べるようにしてほしいです。（最初に選んだら最後まで実行する）
+#学習進捗トラッキング：
+クイズの結果は、学習トラッキングとして自動的に視覚化していつでも見られるようにしてほしいです。イメージは、GitHubのドットのグラフ「contributions in the last year」のような感じです。
+#習慣化リマインダー：
+毎日クイズをやることを忘れないように、メールでリマインダーを飛ばすようにしてほしいです。ただ、リマインドの内容は、堅苦しくなく、優しく、ウィットに飛んだ感じのメッセージにしてほしいです。
+以上です。不明な点は、聞いてください。
+あなたの、限界突破した優れた能力を見たいです。あなたの現在の能力をフルに発揮して、最速世界最高の金融教育アプリを作ってください。
+＜最後に備考＞
+このアプリは、日本人対象です。UIもクイズ自体も日本語で作成してください。
+クイズの内容は、もしあなたが作れるのであれば、＜初心者向け＞を数日分方は90日分、適宜作成してください。
+ログイン認証機能は省いてください。</p>
+                </div>
                 <a href="https://fin-habit-learn--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">OPEN APP</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
