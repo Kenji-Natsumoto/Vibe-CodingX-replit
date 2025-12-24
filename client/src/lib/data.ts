@@ -35,7 +35,7 @@ export const articles: Article[] = [
     },
     excerpt: {
       en: "Release tension, specification changes, and the true nature of Vibe Coding revealed in the final 1% of development.",
-      jp: "画面は動く。データも出る。それでも「このまま出していいのか？」という違和感。そこから始まった仕様変更の嵐で見えた、Vibeコーディングの本質とは。"
+      jp: "画面は動く。データも表示されてる。完成まであと一歩という状態。そこから始まった仕様変更の嵐で見えた、バイブコーディングの本質とは。"
     },
     date: "2025-12-24",
     category: "EXPERIMENTAL LOG",
