@@ -174,7 +174,7 @@ export const articles: Article[] = [
 
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">今回の核心：仕様変更プロンプトの考え方</h2>
-            <p class="mb-6 leading-relaxed">今回、特に効果があったのが、この問いです。</p>
+            <p class="mb-6 leading-relaxed">今回の仕様変更の嵐で、特に効果があったプロンプトを共有します。</p>
             <div class="bg-black/50 border-l-4 border-cyber-green p-6 my-8">
               <p class="text-xl text-white font-mono font-bold">「〜なのは、なぜですか？」</p>
             </div>
