@@ -192,7 +192,7 @@ export const articles: Article[] = [
             <div class="bg-black/50 border-l-4 border-cyber-green p-6 my-4">
               <p class="text-xl text-white font-mono font-bold">「どのファイルの、どの部分を修正すべきか教えてください」</p>
             </div>
-            <p class="mb-6 leading-relaxed">と明示的に聞くことで、後から自分が手を入れるための「地図」を残します。</p>
+            <p class="mb-6 leading-relaxed">と明示的に聞くことで、後からさらに変更する際に、取り掛かりやすくするとともに、正確性が格段に向上します。</p>
             <p class="mb-6 leading-relaxed">これは、バイブコーディングを<strong>使い捨てにしないための重要なコツ</strong>です。</p>
           </section>
 
