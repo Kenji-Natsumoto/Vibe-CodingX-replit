@@ -106,8 +106,11 @@ export const articles: Article[] = [
                 <img src="${invadersImage}" alt="Retro Invaders" class="w-full rounded mb-4" />
                 <p class="mb-4 text-sm">子供ころ駄菓子屋のゲーム台で良く遊んだインベーダーゲームを、ブラウザで再現したかったのです。</p>
                 <p class="mb-4 text-sm">これは、驚くなかれ、以下のプロンプトの一発出しです。修正は一切していません。</p>
-                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
-                  <p class="text-sm text-white font-mono">昔懐かしいインベーダーゲームを効果音付きで作って遊ばせて欲しい。</p>
+                <div class="my-4">
+                  <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+                  <div class="bg-black/50 border-l-4 border-cyber-green p-4">
+                    <p class="text-sm text-white font-mono">昔懐かしいインベーダーゲームを効果音付きで作って遊ばせて欲しい。</p>
+                  </div>
                 </div>
                 <a href="https://retro-invaders-1--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">PLAY GAME</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
@@ -119,8 +122,11 @@ export const articles: Article[] = [
                 <p class="mb-4 text-sm">こちらも昔懐かしい「ギャラクシアン」のコピーです。似てるけど全く同じではない、著作権を巧妙にクリアしています。</p>
                 <p class="mb-4 text-sm">そして、白状します。これはQ社のWさんのアイデアのパクリです（Wさんごめんなさい）。</p>
                 <p class="mb-4 text-sm">ちなみにWさんは、Gemini3で創られたそうですが、私は<a href="https://replit.com/~" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:underline">replit Agent3<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>で創りました。</p>
-                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
-                  <p class="text-sm text-white font-mono">ギャラクシアンを作って！</p>
+                <div class="my-4">
+                  <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+                  <div class="bg-black/50 border-l-4 border-cyber-green p-4">
+                    <p class="text-sm text-white font-mono">ギャラクシアンを作って！</p>
+                  </div>
                 </div>
                 <a href="https://galaxy-war--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">PLAY GAME</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
@@ -134,7 +140,9 @@ export const articles: Article[] = [
                 <p class="mb-4 text-sm">これは、イベントのデモ用に創ったものです。</p>
                 <p class="mb-4 text-sm">このアプリもプロンプト一回限りの一発出し。</p>
                 <p class="mb-4 text-sm">ちょっと長いですが、このように書きました。</p>
-                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
+                <div class="my-4">
+                  <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+                  <div class="bg-black/50 border-l-4 border-cyber-green p-4">
                   <p class="text-sm text-white font-mono whitespace-pre-wrap">私は、投資信託の営業をしています。常日頃から正しい投資知識を持った方をひとりでも多くしたいと考えています。
 そこで、バイブコーディングで**投資初心者向け学習＆習慣トラッカー「FinHabit」**を作り、お客様にまずは無料で提供したいと考えていますので、このアプリができるまで、一緒に伴走してください。
 大まかな仕様は間な感じですので、要件定義やMVP実装仕様書は最小限にして、素早く動くプロトタイプを作って、お客様と共有したいと思っています。開発開始からデプロイまでの制限時間は10分と考えています。
@@ -151,6 +159,7 @@ export const articles: Article[] = [
 このアプリは、日本人対象です。UIもクイズ自体も日本語で作成してください。
 クイズの内容は、もしあなたが作れるのであれば、＜初心者向け＞を数日分方は90日分、適宜作成してください。
 ログイン認証機能は省いてください。</p>
+                  </div>
                 </div>
                 <a href="https://fin-habit-learn--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">OPEN APP</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
@@ -172,8 +181,11 @@ export const articles: Article[] = [
               <div>
                 <h4 class="text-lg font-bold text-cyber-purple mb-2">チャレンジ系：こどもオペラ「カレーを作ろう 第一楽章（完成版）」</h4>
                 <p class="text-sm mb-2">ちょっと変わった曲を創りたかったので、「子供向けオペラ」というジャンルを勝手に創ってみました。歌詞にこだわりがあり、何度もトライ＆エラーしてここまで辿り着きました。<br></p>
-                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
-                  <p class="text-sm text-white font-mono">Opera, Classic Music</p>
+                <div class="my-4">
+                  <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+                  <div class="bg-black/50 border-l-4 border-cyber-green p-4">
+                    <p class="text-sm text-white font-mono">Opera, Classic Music</p>
+                  </div>
                 </div>
                 <a href="https://suno.com/s/UcKdbP7vFWLpmCsQ" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">こどもオペラ「カレーを作ろう 第一楽章（完成版） &rarr;</a>
               </div>
@@ -181,12 +193,18 @@ export const articles: Article[] = [
               <div>
                 <h4 class="text-lg font-bold text-cyber-purple mb-2">マジメ系：Prismatic Diver / KANAZAWA NIGHT</h4>
                 <p class="text-sm mb-2">「Prismatic Diver」は、80年代のAOR、ウェストコーストサウンドを意識して創りました。ギターのリフと曲の構成（特にイントロとエンディング）と声質にこだわりました。</p>
-                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
-                  <p class="text-sm text-white font-mono">city pop, rock, synthpop</p>
+                <div class="my-4">
+                  <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+                  <div class="bg-black/50 border-l-4 border-cyber-green p-4">
+                    <p class="text-sm text-white font-mono">city pop, rock, synthpop</p>
+                  </div>
                 </div>
                 <p class="text-sm mb-2">「KANAZAWA NIGHT」は、あるイベントの雰囲気を曲にしたものです。シンプルなバンド構成とアシッド・ジャズらしいノリが気に入っています。</p>
-                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
-                  <p class="text-sm text-white font-mono">jazz, mellow, acid jazz</p>
+                <div class="my-4">
+                  <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+                  <div class="bg-black/50 border-l-4 border-cyber-green p-4">
+                    <p class="text-sm text-white font-mono">jazz, mellow, acid jazz</p>
+                  </div>
                 </div>
                 <div class="flex gap-4">
                   <a href="https://suno.com/s/Zo377suuvA6zFbYr" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">Prismatic Diver &rarr;</a>
@@ -197,8 +215,11 @@ export const articles: Article[] = [
               <div>
                 <h4 class="text-lg font-bold text-cyber-purple mb-2">コミックソング：イーロン・マスクのララバイ</h4>
                 <p class="text-sm mb-2">真面目なものだけでなく、こうした「おふざけ」の実験もできます。遊びと本気が、同じ地平にある音空間。これもバイブコーディングの醍醐味です。</p>
-                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
-                  <p class="text-sm text-white font-mono">mid tempo anthem with driving drums deep synth bass wide pads spaced guitars bold hooks strong low end male vocals</p>
+                <div class="my-4">
+                  <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+                  <div class="bg-black/50 border-l-4 border-cyber-green p-4">
+                    <p class="text-sm text-white font-mono">mid tempo anthem with driving drums deep synth bass wide pads spaced guitars bold hooks strong low end male vocals</p>
+                  </div>
                 </div>
                 <a href="https://suno.com/s/0Jpw2jWPTa0tsp2w" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">イーロン・マスクのララバイ &rarr;</a>
               </div>
@@ -210,8 +231,11 @@ export const articles: Article[] = [
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">今回の核心：仕様変更プロンプトの考え方</h2>
             <p class="mb-6 leading-relaxed">今回の仕様変更の嵐で、特に効果があったプロンプトを共有します。</p>
-            <div class="bg-black/50 border-l-4 border-cyber-green p-6 my-8">
-              <p class="text-xl text-white font-mono font-bold">「〜なのは、なぜですか？」</p>
+            <div class="my-8">
+              <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+              <div class="bg-black/50 border-l-4 border-cyber-green p-6">
+                <p class="text-xl text-white font-mono font-bold">「〜なのは、なぜですか？」</p>
+              </div>
             </div>
             <p class="mb-6 leading-relaxed">これまでは、「〜を〜にしてください」という要求型のプロンプトを多用していました。<br>結果は出ます。しかし、コードがブラックボックス化しやすい。</p>
             <p class="mb-6 leading-relaxed">そこで今回は、<strong>あえて原因を言語化させる</strong>方向に振りました。</p>
@@ -221,11 +245,17 @@ export const articles: Article[] = [
             </ul>
             <p class="mb-6 leading-relaxed">まずはそこに集中させます。</p>
             <p class="mb-6 leading-relaxed">さらに、</p>
-            <div class="bg-black/50 border-l-4 border-cyber-green p-6 my-4">
-              <p class="text-xl text-white font-mono font-bold">「改善前と改善後のコードを教えてください」</p>
+            <div class="my-4">
+              <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+              <div class="bg-black/50 border-l-4 border-cyber-green p-6">
+                <p class="text-xl text-white font-mono font-bold">「改善前と改善後のコードを教えてください」</p>
+              </div>
             </div>
-            <div class="bg-black/50 border-l-4 border-cyber-green p-6 my-4">
-              <p class="text-xl text-white font-mono font-bold">「どのファイルの、どの部分を修正すべきか教えてください」</p>
+            <div class="my-4">
+              <span class="text-xs text-cyber-cyan font-mono mb-1 block">プロンプト</span>
+              <div class="bg-black/50 border-l-4 border-cyber-green p-6">
+                <p class="text-xl text-white font-mono font-bold">「どのファイルの、どの部分を修正すべきか教えてください」</p>
+              </div>
             </div>
             <p class="mb-6 leading-relaxed">と明示的に聞くことで、後からさらに変更する際に、取り掛かりやすくするとともに、正確性が格段に向上します。</p>
             <p class="mb-6 leading-relaxed">これは、バイブコーディングを<strong>使い捨てにしないための重要なコツ</strong>です。</p>
