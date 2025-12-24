@@ -47,7 +47,7 @@ export const articles: Article[] = [
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">まず最初に</h2>
             <p class="mb-6 leading-relaxed">今週はいろいろありました。</p>
-            <p class="mb-6 leading-relaxed">今取り組んでいるVibeコーディング開発の案件が、<strong>12月26日リリースに向けて大詰め</strong>を迎えています。<br>機能としては、正直に言えば <strong>99％できている</strong> 状態です。</p>
+            <p class="mb-6 leading-relaxed">今取り組んでいるバイブコーディング開発案件が、12月26日リリースに向けて大詰めを迎えています。これ、結構複雑なことをしていますが、今まで1行もコードを書いていません。<br>それでも 機能としては、正直に言えば 99％できている状態です。</p>
             <p class="mb-6 leading-relaxed">画面は動く。<br>データも出る。<br>致命的なバグもない。</p>
             <p class="mb-6 leading-relaxed">それでも、<br>「このまま出していいのか？」<br>という違和感が、最後まで消えませんでした。</p>
             
