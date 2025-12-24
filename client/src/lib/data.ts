@@ -98,7 +98,7 @@ export const articles: Article[] = [
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">バイブコーディングでできること<br><span class="text-sm font-normal text-muted-foreground">― 抽象論ではなく、実例で ―</span></h2>
             <p class="mb-6 leading-relaxed">「バイブコーディングで何ができるのか、正直よく分からない」<br>そう感じている人も多いと思います。</p>
-            <p class="mb-6 leading-relaxed">なので、<strong>実際に作ったものを、そのまま出します。</strong></p>
+            <p class="mb-6 leading-relaxed">なので、<strong>実際に作ったものを、そのまま出します。<br>まずは,</strong></p>
 
             <div class="grid gap-12 mt-12">
               <div class="bg-black/30 border border-white/10 rounded-lg p-6">
