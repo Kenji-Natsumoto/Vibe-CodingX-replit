@@ -60,7 +60,7 @@ export const articles: Article[] = [
             <p class="mb-6 leading-relaxed">細かい修正。<br>判断のやり直し。<br>一度OKを出した仕様を、もう一度ひっくり返す決断。</p>
             <p class="mb-6 leading-relaxed">普通の開発なら、心が折れてもおかしくない局面です。</p>
             <p class="mb-6 leading-relaxed">でも、この1週間で、はっきり分かったことがあります。</p>
-            <p class="mb-6 leading-relaxed"><strong class="text-cyber-magenta text-xl block my-4 border-l-4 border-cyber-magenta pl-4">Vibeコーディングは、99％完成してからが本番だ</strong><br>ということです。</p>
+            <p class="mb-6 leading-relaxed"><strong class="text-cyber-magenta text-xl block my-4 border-l-4 border-cyber-magenta pl-4">バイブコーディングは、99％完成してからが本番だ</strong><br>ということです。</p>
             <p class="mb-6 leading-relaxed">今週は、その理由と、<br>その中で得た<strong>そのまま使える学び</strong>をお伝えします。</p>
           </section>
 
