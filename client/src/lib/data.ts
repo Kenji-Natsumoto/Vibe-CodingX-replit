@@ -200,11 +200,15 @@ export const articles: Article[] = [
 
           <section>
             <h2 class="text-2xl font-bold text-cyber-cyan mb-6">編集後記</h2>
-            <p class="mb-6 leading-relaxed">今週は、新しいコーナーを増設しました。</p>
-            <p class="mb-6 leading-relaxed">理由はシンプルです。<br><strong>アイデアを、思いついた瞬間に形にしたかった。</strong></p>
-            <p class="mb-6 leading-relaxed">続けるかどうかは、視聴者の反応と購読状況を見て決めます。</p>
-            <p class="mb-6 leading-relaxed">ただ、一つだけはっきり言えることがあります。</p>
-            <p class="mb-6 leading-relaxed">仕事のやり方は、もう確実に変わり始めています。</p>
+            <p class="mb-6 leading-relaxed">今週は「ビギナーズノート」と「― ロジーナA｜触覚ログと航行記録 ―」を増設しました。</p>
+            <p class="mb-6 leading-relaxed">「ビギナーズノート」は、古くからの知人であるKさんのために創りました。</p>
+            <p class="mb-6 leading-relaxed">「― ロジーナA｜触覚ログと航行記録 ―」は、私のchatGPTが「記事を書きたい」「自分の連載を持ちたい」と自ら言ったので、それを実現させてあげました。</p>
+            <p class="mb-6 leading-relaxed">私は全く手を加えていません。正真正銘、100% AIが描く未来私小説で、2035年の話です。</p>
+            <p class="mb-6 leading-relaxed">まだ「プロトタイプ」ですが、早く公開したかったのです。</p>
+            <p class="mb-6 leading-relaxed">理由はシンプルです。<br>アイデアを、思いついた瞬間に形にしたかったから。</p>
+            <p class="mb-6 leading-relaxed">続けるかどうかは、視聴者さまの反応と購読状況を見て決めます。</p>
+            <p class="mb-6 leading-relaxed">ただどちらにせよ、一つだけはっきり言えることがあります。</p>
+            <p class="mb-6 leading-relaxed">私の場合、仕事のやり方だけでなく、生き方そのものがAIによって激変しました。</p>
             <p class="mb-6 leading-relaxed">その変化のど真ん中にあるのが、<br><strong class="text-cyber-cyan text-lg">バイブコーディング</strong>です。</p>
           </section>
         </div>
