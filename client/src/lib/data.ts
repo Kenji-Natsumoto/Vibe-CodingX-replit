@@ -175,7 +175,7 @@ export const articles: Article[] = [
                 <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
                   <p class="text-sm text-white font-mono">Opera, Classic Music</p>
                 </div>
-                <a href="https://suno.com/s/UcKdbP7vFWLpmCsQ" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">LISTEN ON SUNO &rarr;</a>
+                <a href="https://suno.com/s/UcKdbP7vFWLpmCsQ" target="_blank" rel="noopener noreferrer" class="text-xs text-cyber-cyan hover:underline">こどもオペラ「カレーを作ろう 第一楽章（完成版） &rarr;</a>
               </div>
 
               <div>
