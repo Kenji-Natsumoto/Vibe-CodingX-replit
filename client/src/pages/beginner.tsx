@@ -4,6 +4,7 @@ import { Link } from "wouter";
 import { ArrowLeft, Share2, Bookmark } from "lucide-react";
 import infographicImage from "@/assets/beginner_note_infographic.png";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 export function BeginnerPage() {
   const { t } = useLanguage();
@@ -26,13 +27,18 @@ export function BeginnerPage() {
         </div>
 
         {/* Content */}
-        <div className="bg-black/30 border border-cyber-purple/30 rounded-lg overflow-hidden shadow-[0_0_50px_rgba(138,43,226,0.1)]">
+        <motion.div 
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.0, ease: "easeOut" }}
+          className="bg-black/30 border border-cyber-purple/30 rounded-lg overflow-hidden shadow-[0_0_50px_rgba(138,43,226,0.1)]"
+        >
           <img 
             src={infographicImage} 
             alt="Vibe Coding Infographic" 
             className="w-full h-auto"
           />
-        </div>
+        </motion.div>
 
         {/* Footer Actions */}
         <div className="mt-12 pt-8 border-t border-white/10 flex justify-between items-center">
