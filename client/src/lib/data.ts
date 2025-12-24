@@ -31,7 +31,7 @@ export const articles: Article[] = [
     type: 'standard',
     title: {
       en: "The Real Battle Starts at 99%: The Truth Behind Vibe Coding",
-      jp: "99％完成してからが本当の勝負だった ― リリース直前、仕様変更だらけの現場で見えたバイブコーディングの正体 ―"
+      jp: "99％完成してからが本当の勝負だった ― リリース直前、仕様変更に次ぐ仕様変更の現場で見えたバイブコーディングの正体 ―"
     },
     excerpt: {
       en: "Release tension, specification changes, and the true nature of Vibe Coding revealed in the final 1% of development.",
