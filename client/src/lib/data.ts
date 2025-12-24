@@ -104,8 +104,11 @@ export const articles: Article[] = [
               <div class="bg-black/30 border border-white/10 rounded-lg p-6">
                 <h3 class="text-xl font-bold text-cyber-magenta mb-4">ゲーム①：インベーダーゲーム "Retro Invaders"</h3>
                 <img src="${invadersImage}" alt="Retro Invaders" class="w-full rounded mb-4" />
-                <p class="mb-4 text-sm">昔懐かしいインベーダーゲームを、ブラウザで遊べる形にしました。</p>
-                <p class="mb-4 text-sm">敵の動き。弾のスピード。当たり判定。どれも「一度決めて終わり」ではありません。遊んでみて、違和感があれば、すぐに修正する。仕様変更を前提にしているからこそ、完成度が上がっていきます。</p>
+                <p class="mb-4 text-sm">子供ころ駄菓子屋のゲーム台で良く遊んだインベーダーゲームを、ブラウザで再現したかったのです。</p>
+                <p class="mb-4 text-sm">これは、驚くなかれ、以下のプロンプトの一発出しです。修正は一切していません。</p>
+                <div class="bg-black/50 border-l-4 border-cyber-green p-4 my-4">
+                  <p class="text-sm text-white font-mono">昔懐かしいインベーダーゲームを効果音付きで作って遊ばせて欲しい。</p>
+                </div>
                 <a href="https://retro-invaders-1--kn78.replit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-cyber-cyan hover:text-white transition-colors">
                   <span class="mr-2">PLAY GAME</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
